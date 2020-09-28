@@ -58,18 +58,18 @@ class Login extends Component {
                                                 </div>
                                             </Col>
                                             <Col className="col-5 align-self-end">
-                                                {/* <img src={profile} alt="" className="img-fluid" /> */}
+                                                <img src={profile} alt="" className="img-fluid" />
                                             </Col>
                                         </Row>
                                     </div>
                                     <CardBody className="pt-0">
                                         <div>
                                             <Link to="/">
-                                                {/* <div className="avatar-md profile-user-wid mb-4">
+                                                <div className="avatar-md profile-user-wid mb-4">
                                                     <span className="avatar-title rounded-circle bg-light">
                                                         <img src={grazzer} alt="" className="rounded-circle" height="34" />
                                                     </span>
-                                                </div> */}
+                                                </div>
                                             </Link>
                                         </div>
                                         <div className="p-2">
@@ -103,8 +103,8 @@ class Login extends Component {
                                     </CardBody>
                                 </Card>
                                 <div className="mt-5 text-center">
-                                    {/* <p>Don't have an account ? <Link to="register" className="font-weight-medium text-primary"> Signup now </Link> </p>
-                                    <p>© {new Date().getFullYear()} Skote. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p> */}
+                                    <p>Don't have an account ? <Link to="register" className="font-weight-medium text-primary"> Signup now </Link> </p>
+                                    <p>© {new Date().getFullYear()} Skote. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p>
                                 </div>
                             </Col>
                         </Row>

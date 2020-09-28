@@ -35,13 +35,13 @@ class ContactsProfile extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumbs */}
-                        <Breadcrumbs title="Contacts" breadcrumbItem="Profile" />
+                        {/* <Breadcrumbs title="Contacts" breadcrumbItem="Profile" /> */}
 
                         <Row>
                             <Col xl="4">
                                 <Card className="overflow-hidden">
                                     <div className="bg-soft-primary">
-                                        <Row>
+                                        {/* <Row>
                                             <Col xs="7">
                                                 <div className="text-primary p-3">
                                                     <h5 className="text-primary">Welcome Back !</h5>
@@ -51,9 +51,9 @@ class ContactsProfile extends Component {
                                             <Col xs="5" className="align-self-end">
                                                 <img src={profile1} alt="" className="img-fluid" />
                                             </Col>
-                                        </Row>
+                                        </Row> */}
                                     </div>
-                                    <CardBody className="pt-0">
+                                    {/* <CardBody className="pt-0">
                                         <Row>
                                             <Col sm="4">
                                                 <div className="avatar-md profile-user-wid mb-4">
@@ -81,10 +81,10 @@ class ContactsProfile extends Component {
                                                 </div>
                                             </Col>
                                         </Row>
-                                    </CardBody>
+                                    </CardBody> */}
                                 </Card>
 
-                                <Card>
+                                {/* <Card>
                                     <CardBody>
                                         <CardTitle className="mb-4">Personal Information</CardTitle>
 
@@ -144,98 +144,99 @@ class ContactsProfile extends Component {
                                         </div>
 
                                     </CardBody>
-                                </Card>
+                                </Card> */}
                             </Col>
 
-                            <Col xl="8">
+                            <Col xl="12">
 
-                                <Row>
+                                {/* <Row>
                                     {
                                         this.state.miniCards.map((card, key) =>
                                             <MiniCards title={card.title} text={card.text} iconClass={card.iconClass} key={"_card_" + key} />
                                         )
                                     }
 
-                                </Row>
-                                <Card>
+                                </Row> */}
+                                {/* <Card>
                                     <CardBody>
                                         <CardTitle className="mb-4">Revenue</CardTitle>
                                         <div id="revenue-chart" className="apex-charts">
                                             <ApexRevenue />
                                         </div>
                                     </CardBody>
-                                </Card>
+                                </Card> */}
 
-                                <Card>
+<Card>
                                     <CardBody>
-                                        <CardTitle className="mb-4">My Projects</CardTitle>
+                                        <CardTitle className="mb-4">Profiles</CardTitle>
                                         <div className="table-responsive">
                                             <Table className="table table-nowrap table-hover mb-0">
                                                 <thead>
                                                     <tr>
                                                         <th scope="col">#</th>
-                                                        <th scope="col">Projects</th>
+                                                        <th scope="col">Topics</th>
                                                         <th scope="col">Start Date</th>
                                                         <th scope="col">Deadline</th>
-                                                        <th scope="col">Budget</th>
+                                                        <th scope="col">Videos</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td>Skote admin UI</td>
+                                                        <td> Java</td>
                                                         <td>2 Sep, 2019</td>
                                                         <td>20 Oct, 2019</td>
-                                                        <td>$506</td>
+                                                        <td>506</td>
                                                     </tr>
 
                                                     <tr>
                                                         <th scope="row">2</th>
-                                                        <td>Skote admin Logo</td>
+                                                        <td>Algorithm</td>
                                                         <td>1 Sep, 2019</td>
                                                         <td>2 Sep, 2019</td>
-                                                        <td>$94</td>
+                                                        <td>94</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">3</th>
-                                                        <td>Redesign - Landing page</td>
+                                                        <td>Designing</td>
                                                         <td>21 Sep, 2019</td>
                                                         <td>29 Sep, 2019</td>
-                                                        <td>$156</td>
+                                                        <td>15</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">4</th>
-                                                        <td>App Landing UI</td>
+                                                        <td>Data Structure</td>
                                                         <td>29 Sep, 2019</td>
                                                         <td>04 Oct, 2019</td>
-                                                        <td>$122</td>
+                                                        <td>12</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">5</th>
-                                                        <td>Blog Template</td>
+                                                        <td>Maths</td>
                                                         <td>05 Oct, 2019</td>
                                                         <td>16 Oct, 2019</td>
-                                                        <td>$164</td>
+                                                        <td>164</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">6</th>
-                                                        <td>Redesign - Multipurpose Landing</td>
+                                                        <td>Algebra</td>
                                                         <td>17 Oct, 2019</td>
                                                         <td>05 Nov, 2019</td>
-                                                        <td>$192</td>
+                                                        <td>192</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">7</th>
-                                                        <td>Logo Branding</td>
+                                                        <td>Physics</td>
                                                         <td>04 Nov, 2019</td>
                                                         <td>05 Nov, 2019</td>
-                                                        <td>$94</td>
+                                                        <td>94</td>
                                                     </tr>
                                                 </tbody>
                                             </Table>
                                         </div>
                                     </CardBody>
                                 </Card>
+
                             </Col>
                         </Row>
 

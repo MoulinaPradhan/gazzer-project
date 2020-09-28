@@ -92,12 +92,12 @@ class Header extends Component {
         <header id="page-topbar">
           <div className="navbar-header">
             <div className="d-flex">
-              <div className="navbar-brand-box">
+              <div className="navbar-brand-box" style={{backgroundColor:"white"}}>
                 <Link to="/" className="logo logo-dark">
                   <span className="logo-sm">
                     {/* <img src={logo} alt="" height="22" /> */}
                   </span>
-                  <span className="logo-lg">
+                  <span className="logo-lg" >
                     <img src={grazzer} alt="" height="17" />
                   </span>
                 </Link>

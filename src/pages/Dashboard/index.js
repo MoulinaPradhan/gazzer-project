@@ -59,7 +59,7 @@ class Dashboard extends Component {
                         <Row>
                             <Col xl="4">
                                 <WelcomeComp />
-                                <MonthlyEarning />
+                                {/* <MonthlyEarning /> */}
                             </Col>
                             <Col xl="8">
                                 <Row>
@@ -110,7 +110,7 @@ class Dashboard extends Component {
                             </Col>
                         </Row>
 
-                        <Row>
+                        {/* <Row>
                             <Col xl="4">
                                 <SocialSource />
                             </Col>
@@ -121,11 +121,11 @@ class Dashboard extends Component {
                             <Col xl="4">
                                 <TopCities />
                             </Col>
-                        </Row>
+                        </Row> */}
 
                         <Row>
                             <Col lg="12">
-                                <LatestTranaction />
+                                {/* <LatestTranaction /> */}
                             </Col>
                         </Row>
                     </Container>
