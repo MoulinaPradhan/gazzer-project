@@ -12,6 +12,7 @@ import UserProfile from "../pages/Authentication/UserProfile";
 
 //Tasks
 import TasksList from "../pages/Tasks/tasks-list";
+
 import TasksKanban from "../pages/Tasks/tasks-kanban";
 import TasksCreate from "../pages/Tasks/tasks-create";
 

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, CardBody, Media, Table } from "reactstrap";
+import { Container, Row, Col, Card, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, CardBody,Button, Media, Table } from "reactstrap";
 import { Link } from "react-router-dom";
 
 //Import Breadcrumb
 import Breadcrumbs from '../../components/Common/Breadcrumb';
+// availity-reactstrap-validation
+import { AvForm, AvField } from 'availity-reactstrap-validation';
 
 class CryptoLending extends Component {
     constructor(props) {
@@ -37,10 +39,10 @@ class CryptoLending extends Component {
                         <Breadcrumbs title="Crypto" breadcrumbItem="Lending" />
         
                         <Row>
-                            <Col xl="4">
+                            <Col xl="12">
                                 <Card>
                                     <CardBody>
-                                        <Dropdown isOpen={this.state.isMenu} toggle={this.toggleMenu} className="float-right ml-2">
+                                        {/* <Dropdown isOpen={this.state.isMenu} toggle={this.toggleMenu} className="float-right ml-2">
                                             <DropdownToggle tag="a" className="text-muted">
                                                 <i className="mdi mdi-dots-horizontal font-size-18"></i>
                                             </DropdownToggle>
@@ -299,8 +301,33 @@ class CryptoLending extends Component {
                                                     }
                                                 </tbody>
                                             </Table>
-                                        </div>
-                                    </CardBody>
+                                                </div>*/}
+                                    <AvForm className="form-horizontal" onValidSubmit={(e,v) => { this.handleValidSubmit(e,v) }}>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Name" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Email" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Date of Birth" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Chat Groups" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group" style={{height:100}}>
+                                         <AvField name="username" style={{height:100}} label="About Me" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                     <div className="text-center mt-4">
+                                         <Button type="submit" color="danger">Back to Profile</Button>
+                                    </div>
+                               </AvForm>
+                                    </CardBody> 
                                 </Card>
                             </Col>
                         </Row>

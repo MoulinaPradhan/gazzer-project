@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Dropzone from 'react-dropzone';
 import { Container, Row, Col, Card, CardBody, CardTitle, Form, FormGroup, Input, Label, Button } from "reactstrap";
+// availity-reactstrap-validation
+import { AvForm, AvField } from 'availity-reactstrap-validation';
 
 //Import Date Picker
 import DatePicker from "react-datepicker";
@@ -69,7 +71,7 @@ class ProjectsCreate extends Component {
                                 <Card>
                                     <CardBody>
                                         <CardTitle className="mb-4">Create New Project</CardTitle>
-                                        <Form>
+                                        {/* <Form>
                                             <FormGroup className="mb-4" row>
                                                 <Label htmlFor="projectname" className="col-form-label col-lg-2">Project Name</Label>
                                                 <Col lg="10">
@@ -181,8 +183,32 @@ class ProjectsCreate extends Component {
                                             <Col lg="10">
                                                 <Button type="submit" color="primary">Create Project</Button>
                                             </Col>
-                                        </Row>
-
+                                        </Row> */}
+  <AvForm className="form-horizontal" onValidSubmit={(e,v) => { this.handleValidSubmit(e,v) }}>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Name" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Email" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Date of Birth" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Chat Groups" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group" style={{height:100}}>
+                                         <AvField name="username" style={{height:90}} label="About Me" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                     <div className="text-center mt-4">
+                                         <Button type="submit" color="danger">Back to Profile</Button>
+                                    </div>
+                               </AvForm>
                                     </CardBody>
                                 </Card>
                             </Col>

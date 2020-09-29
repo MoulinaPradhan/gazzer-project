@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import { Card, Row, Col, CardBody, CardTitle, CardSubtitle,Container } from "reactstrap";
+import { Card, Row, Col, CardBody, CardTitle, CardSubtitle,Container ,Button} from "reactstrap";
+// availity-reactstrap-validation
+import { AvForm, AvField } from 'availity-reactstrap-validation';
 
 //Import Breadcrumb
 import Breadcrumbs from '../../components/Common/Breadcrumb';
@@ -19,13 +21,13 @@ class UiVideo extends Component {
                 <div className="page-content">
                     <Container fluid={true}>
 
-                        <Breadcrumbs title="UI Elements" breadcrumbItem="Video" />
+                        <Breadcrumbs title="Video" breadcrumbItem="Video Details" />
 
                         <Row>
-                            <Col lg={6}>
+                            <Col lg={12}>
                                 <Card>
                                     <CardBody>
-                                        <CardTitle>Responsive embed video 16:9</CardTitle>
+                                        {/* <CardTitle>Responsive embed video 16:9</CardTitle>
                                         <CardSubtitle className="mb-3">Aspect ratios can be customized with modifier classNamees.</CardSubtitle>
 
                                         <div className="embed-responsive embed-responsive-16by9">
@@ -73,7 +75,32 @@ class UiVideo extends Component {
 
                                         <div className="embed-responsive embed-responsive-1by1">
                                             <iframe title="test3" className="embed-responsive-item" src="https://www.youtube.com/embed/1y_kfWUCFDQ"></iframe>
-                                        </div>
+                                        </div> */}
+                                        <AvForm className="form-horizontal" onValidSubmit={(e,v) => { this.handleValidSubmit(e,v) }}>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Name" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Email" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Date of Birth" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Chat Groups" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group" style={{height:100}}>
+                                         <AvField name="username" style={{height:100}} label="About Me" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                     <div className="text-center mt-4">
+                                         <Button type="submit" color="danger">Back to Profile</Button>
+                                    </div>
+                               </AvForm>
                                     </CardBody>
                                 </Card>
                             </Col>

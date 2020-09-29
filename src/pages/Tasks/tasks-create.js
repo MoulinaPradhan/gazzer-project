@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Container, Row, Col, Card, CardBody, CardTitle, Input, FormGroup, Label, Button } from "reactstrap";
+import { Container, Row, Col, Card, CardBody, CardTitle, Input, FormGroup, Label, Button,Table } from "reactstrap";
 
 // Import Editor
 import { Editor } from 'react-draft-wysiwyg';
@@ -60,13 +60,13 @@ class TasksCreate extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumbs */}
-                        <Breadcrumbs title="Tasks" breadcrumbItem="Create Task" />
+                        <Breadcrumbs title="Meeting" breadcrumbItem="Meeting Summary" />
 
                         <Row>
                             <Col lg="12">
                                 <Card>
-                                    <CardBody>
-                                        <CardTitle className="mb-4">Create New Task</CardTitle>
+                                     <CardBody>
+                                        {/* <CardTitle className="mb-4">Create New Task</CardTitle>
                                         <form className="outer-repeater">
                                             <div data-repeater-list="outer-group" className="outer">
                                                 <div data-repeater-item className="outer">
@@ -154,9 +154,90 @@ class TasksCreate extends Component {
                                             <Col lg="10">
                                                 <Button type="submit" color="primary">Create Task</Button>
                                             </Col>
-                                        </Row>
+                                        </Row> */}
+                                        <div className="table-responsive">
+                                            <Table className="table table-nowrap table-hover mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Name</th>
+                                                        <th scope="col">Date</th>
+                                                        <th scope="col">Traffic</th>
+                                                        <th scope="col">Bounce Rate</th>
+                                                        <th scope="col">Sessions</th>
+                                                        <th scope="col">Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>Daniel Canales</td>
+                                                        <td>2 Sep, 2019</td>
+                                                        <td>8.1%</td>
+                                                        <td>21.6%</td>
+                                                        <td>506</td>
+                                                        <td><span className="badge badge-warning font-size-10">Pending</span></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>Natalie Salerno</td>
+                                                        <td>1 Sep, 2019</td>
+                                                        <td>20.1%</td>
+                                                        <td>31.6%</td>
+                                                        <td>94</td>
+                                                        <td><span className="badge badge-danger">Delay</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>John Doe</td>
+                                                        <td>21 Sep, 2019</td>
+                                                        <td>82.1%</td>
+                                                        <td>2.6%</td>
+                                                        <td>15</td>
+                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>Kenneth Johnson</td>
+                                                        <td>29 Sep, 2019</td>
+                                                        <td>8.9%</td>
+                                                        <td>11.6%</td>
+                                                        <td>12</td>
+                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>Daniel Canales</td>
+                                                        <td>05 Oct, 2019</td>
+                                                        <td>6.1%</td>
+                                                        <td>2.6%</td>
+                                                        <td>164</td>
+                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">6</th>
+                                                        <td>Jennifer Walker</td>
+                                                        <td>17 Oct, 2019</td>
+                                                        <td>2.1%</td>
+                                                        <td>41.6%</td>
+                                                        <td>192</td>
+                                                        <td><span className="badge badge-danger">Delay</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">7</th>
+                                                        <td>Jenny Rose</td>
+                                                        <td>04 Nov, 2019</td>
+                                                        <td>18.1%</td>
+                                                        <td>1.6%</td>
+                                                        <td>94</td>
+                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
+                                        </div>
                                     </CardBody>
-                                </Card>
+                                </Card> 
                             </Col>
                         </Row>
                     </Container>

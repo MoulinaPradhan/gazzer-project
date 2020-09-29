@@ -31,7 +31,7 @@ class ProjectsList extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumbs */}
-                        <Breadcrumbs title="Projects" breadcrumbItem="Projects List" />
+                        <Breadcrumbs title="Chats" breadcrumbItem="Chats Group" />
 
                         <Row>
                             <Col lg="12">
@@ -41,10 +41,11 @@ class ProjectsList extends Component {
                                             <thead>
                                                 <tr>
                                                     <th scope="col" style={{ width: "100px" }}>#</th>
-                                                    <th scope="col">Projects</th>
-                                                    <th scope="col">Due Date</th>
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col"> Date</th>
                                                     <th scope="col">Status</th>
-                                                    <th scope="col">Team</th>
+                                                    <th scope="col">Members</th>
+                                                    <th scope="col">Traffic</th>
                                                     <th scope="col">Action</th>
                                                 </tr>
                                             </thead>
@@ -75,6 +76,7 @@ class ProjectsList extends Component {
 
                                                         </div>
                                                     </td>
+                                                    <td>4.34%</td>
                                                     <td>
                                                         <UncontrolledDropdown>
                                                             <DropdownToggle href="#" className="card-drop" tag="i">
@@ -107,6 +109,7 @@ class ProjectsList extends Component {
 
                                                         </div>
                                                     </td>
+                                                    <td>80.34%</td>
                                                     <td>
                                                         <UncontrolledDropdown>
                                                             <DropdownToggle href="#" className="card-drop" tag="i">
@@ -155,6 +158,7 @@ class ProjectsList extends Component {
                                                             </Link>
                                                         </div>
                                                     </td>
+                                                    <td>24.34%</td>
                                                     <td>
                                                         <UncontrolledDropdown>
                                                             <DropdownToggle href="#" className="card-drop" tag="i">
@@ -198,6 +202,7 @@ class ProjectsList extends Component {
                                                             </Link>
                                                         </div>
                                                     </td>
+                                                    <td>24.34%</td>
                                                     <td>
                                                         <UncontrolledDropdown>
                                                             <DropdownToggle href="#" className="card-drop" tag="i">
@@ -235,6 +240,7 @@ class ProjectsList extends Component {
                                                             </Link>
                                                         </div>
                                                     </td>
+                                                    <td>50.34%</td>
                                                     <td>
                                                         <UncontrolledDropdown>
                                                             <DropdownToggle href="#" className="card-drop" tag="i">
@@ -270,6 +276,7 @@ class ProjectsList extends Component {
                                                             </Link>
                                                         </div>
                                                     </td>
+                                                    <td>80.34%</td>
                                                     <td>
                                                         <UncontrolledDropdown>
                                                             <DropdownToggle href="#" className="card-drop" tag="i">
@@ -303,6 +310,7 @@ class ProjectsList extends Component {
 
                                                         </div>
                                                     </td>
+                                                    <td>64.34%</td>
                                                     <td>
                                                         <UncontrolledDropdown>
                                                             <DropdownToggle href="#" className="card-drop" tag="i">

@@ -1,12 +1,10 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Container, Row, Col, Card, CardBody, Table, UncontrolledTooltip, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
+import { Container, Row, Col, Table, UncontrolledTooltip, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
 
 //Import Breadcrumb
 import Breadcrumbs from '../../components/Common/Breadcrumb';
 
-//Import Cards
-import CardProject from "./card-project";
 
 //Import Image
 import img1 from "../../assets/images/companies/img-1.png";
@@ -30,9 +28,9 @@ class ProjectsList extends Component {
         return (
             <React.Fragment>
                 <div className="page-content">
-                    <Container fluid>
+                    {/* <Container fluid>
 
-                        {/* Render Breadcrumbs */}
+                        Render Breadcrumbs
                         <Breadcrumbs title="Projects" breadcrumbItem="Projects List" />
 
                         <Row>
@@ -61,14 +59,14 @@ class ProjectsList extends Component {
                                                     <td><span className="badge badge-primary">Completed</span></td>
                                                     <td>
                                                         <div className="team">
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member1">
+                                                            <Link to="#" className="team-member d-inline-block" id="member1">
                                                                 <img src={avatar2} className="rounded-circle avatar-xs m-1" alt="" />
                                                                 <UncontrolledTooltip placement="top" target="member1">
                                                                     Daniel Canales
                                                                 </UncontrolledTooltip>
                                                             </Link>
 
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member2">
+                                                            <Link to="#" className="team-member d-inline-block" id="member2">
                                                                 <img src={avatar1} className="rounded-circle avatar-xs m-1" alt="" />
                                                                 <UncontrolledTooltip placement="top" target="member2">
                                                                     Jennifer Walker
@@ -132,13 +130,13 @@ class ProjectsList extends Component {
                                                     <td><span className="badge badge-danger">Delay</span></td>
                                                     <td>
                                                         <div className="team">
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member4">
+                                                            <Link to="#" className="team-member d-inline-block" id="member4">
                                                                 <img src={avatar5} className="rounded-circle avatar-xs m-1" alt="" />
                                                                 <UncontrolledTooltip placement="top" target="member4">
                                                                     Natalie Salerno
                                                                 </UncontrolledTooltip>
                                                             </Link>
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member5">
+                                                            <Link to="#" className="team-member d-inline-block" id="member5">
                                                                 <div className="avatar-xs m-1">
                                                                     <span className="avatar-title rounded-circle bg-soft-primary text-primary font-size-16">
                                                                         A
@@ -188,7 +186,7 @@ class ProjectsList extends Component {
                                                                 </UncontrolledTooltip>
                                                             </Link>
 
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member8">
+                                                            <Link to="#" className="team-member d-inline-block" id="member8">
                                                                 <div className="avatar-xs m-1">
                                                                     <span className="avatar-title rounded-circle bg-soft-success text-success font-size-16">
                                                                         D
@@ -223,13 +221,13 @@ class ProjectsList extends Component {
                                                     <td><span className="badge badge-primary">Completed</span></td>
                                                     <td>
                                                         <div className="team">
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member9">
+                                                            <Link to="#" className="team-member d-inline-block" id="member9">
                                                                 <img src={avatar7} className="rounded-circle avatar-xs m-1" alt="" />
                                                                 <UncontrolledTooltip placement="top" target="member9">
                                                                     Kenneth Johnson
                                                                 </UncontrolledTooltip>
                                                             </Link>
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member10">
+                                                            <Link to="#" className="team-member d-inline-block" id="member10">
                                                                 <img src={avatar8} className="rounded-circle avatar-xs m-1" alt="" />
                                                                 <UncontrolledTooltip placement="top" target="member10">
                                                                     Kenneth Johnson
@@ -260,7 +258,7 @@ class ProjectsList extends Component {
                                                     <td><span className="badge badge-warning">pending</span></td>
                                                     <td>
                                                         <div className="team">
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member11" >
+                                                            <Link to="#" className="team-member d-inline-block" id="member11" >
                                                                 <div className="avatar-xs m-1">
                                                                     <span className="avatar-title rounded-circle bg-soft-danger text-danger font-size-16">
                                                                         K
@@ -296,7 +294,7 @@ class ProjectsList extends Component {
                                                     <td><span className="badge badge-danger">Delay</span></td>
                                                     <td>
                                                         <div className="team">
-                                                            <Link to="javascript: void(0);" className="team-member d-inline-block" id="member12">
+                                                            <Link to="#" className="team-member d-inline-block" id="member12">
                                                                 <img src={avatar3} className="rounded-circle avatar-xs m-1" alt="" />
                                                                 <UncontrolledTooltip placement="top" target="member12">
                                                                     Kenneth Johnson
@@ -332,7 +330,7 @@ class ProjectsList extends Component {
                                 </div>
                             </Col>
                         </Row>
-                    </Container>
+                    </Container> */}
                 </div>
             </React.Fragment>
         );

@@ -1,8 +1,27 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card, CardBody, Table, Label, Input, Button, Badge, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
+import { Link } from "react-router-dom";
+import { Container, Row, Col, Card, CardBody, Table, Label,UncontrolledTooltip,Input, Button, Badge, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 
 //Import Breadcrumb
 import Breadcrumbs from '../../components/Common/Breadcrumb';
+
+
+//Import Image
+import img1 from "../../assets/images/companies/img-1.png";
+import img2 from "../../assets/images/companies/img-2.png";
+import img3 from "../../assets/images/companies/img-3.png";
+import img4 from "../../assets/images/companies/img-4.png";
+import img5 from "../../assets/images/companies/img-5.png";
+import img6 from "../../assets/images/companies/img-6.png";
+import avatar1 from "../../assets/images/users/avatar-1.jpg";
+import avatar2 from "../../assets/images/users/avatar-2.jpg";
+import avatar3 from "../../assets/images/users/avatar-3.jpg";
+import avatar4 from "../../assets/images/users/avatar-4.jpg";
+import avatar5 from "../../assets/images/users/avatar-5.jpg";
+import avatar6 from "../../assets/images/users/avatar-6.jpg";
+import avatar7 from "../../assets/images/users/avatar-7.jpg";
+import avatar8 from "../../assets/images/users/avatar-8.jpg";
+
 
 
 class EcommerceCustomers extends Component {
@@ -12,12 +31,12 @@ class EcommerceCustomers extends Component {
                 <div className="page-content">
                     <Container fluid>
 
-                        <Breadcrumbs title="Ecommerce" breadcrumbItem="Customers" />
+                        <Breadcrumbs title="Meetings Group" breadcrumbItem="Meetings Group" />
                         <Row>
                             <Col xs="12">
                                 <Card>
                                     <CardBody>
-                                        <Row className="mb-2">
+                                        {/* <Row className="mb-2">
                                             <Col sm="4">
                                                 <div className="search-box mr-2 mb-2 d-inline-block">
                                                     <div className="position-relative">
@@ -31,9 +50,9 @@ class EcommerceCustomers extends Component {
                                                     <Button type="button" color="success" className="btn-rounded waves-effect waves-light mb-2 mr-2"><i className="mdi mdi-plus mr-1"></i> New Customers</Button>
                                                 </div>
                                             </Col>
-                                        </Row>
+                                        </Row> */}
 
-                                        <div className="table-responsive">
+                                        {/* <div className="table-responsive">
                                             <Table className="table-centered table-nowrap">
                                                 <thead>
                                                     <tr>
@@ -44,7 +63,7 @@ class EcommerceCustomers extends Component {
                                                         <th>Rating</th>
                                                         <th>Wallet Balance</th>
                                                         <th>Joining Date</th>
-                                                        <th>Action</th>
+                                                        <th>Status</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -323,7 +342,208 @@ class EcommerceCustomers extends Component {
                                             <PaginationItem>
                                                 <PaginationLink next href="#" />
                                             </PaginationItem>
-                                        </Pagination>
+                                        </Pagination> */}
+                                        	<div className="table-responsive">
+                                            <Table className="table table-nowrap table-hover mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Name</th>
+                                                        <th scope="col">Date</th>
+                                                        <th scope="col">Traffic</th>
+                                                        <th scope="col">Bounce Rate</th>
+                                                        <th scope="col">Sessions</th>
+                                                        <th scope="col">Members</th>
+                                               <th scope="col">Status</th>
+
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>Daniel Canales</td>
+                                                        <td>2 Sep, 2019</td>
+                                                        <td>8.1%</td>
+                                                        <td>21.6%</td>
+                                                        <td>506</td>
+                                                        <td>
+                                                        <div className="team">
+                                                            <Link to="#" className="team-member d-inline-block" id="member1">
+                                                                <img src={avatar2} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member1">
+                                                                    Daniel Canales
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+
+                                                            <Link to="#" className="team-member d-inline-block" id="member2">
+                                                                <img src={avatar1} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member2">
+                                                                    Jennifer Walker
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+
+                                                        </div>
+                                                    </td>
+                                                        <td><span className="badge badge-warning font-size-10">Pending</span></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>Natalie Salerno</td>
+                                                        <td>1 Sep, 2019</td>
+                                                        <td>20.1%</td>
+                                                        <td>31.6%</td>
+                                                        <td>94</td>
+                                                        <td>
+                                                        <div className="team">
+                                                            <Link to="#" className="team-member d-inline-block" id="member3">
+                                                                <img src={avatar3} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member3">
+                                                                    Kenneth Johnson
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+
+                                                        </div>
+                                                    </td>
+                                                        <td><span className="badge badge-danger">Delay</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>John Doe</td>
+                                                        <td>21 Sep, 2019</td>
+                                                        <td>82.1%</td>
+                                                        <td>2.6%</td>
+                                                        <td>15</td>
+                                                        <td>
+                                                        <div className="team">
+                                                            <Link to="#" className="team-member d-inline-block" id="member9">
+                                                                <img src={avatar7} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member9">
+                                                                    Kenneth Johnson
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+                                                            <Link to="#" className="team-member d-inline-block" id="member10">
+                                                                <img src={avatar8} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member10">
+                                                                    Kenneth Johnson
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+                                                        </div>
+                                                    </td>
+                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>Kenneth Johnson</td>
+                                                        <td>29 Sep, 2019</td>
+                                                        <td>8.9%</td>
+                                                        <td>11.6%</td>
+                                                        <td>12</td>
+                                                        <td>
+                                                        <div className="team">
+                                                            <Link to="#" className="team-member d-inline-block" id="member4">
+                                                                <img src={avatar5} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member4">
+                                                                    Natalie Salerno
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+                                                            <Link to="#" className="team-member d-inline-block" id="member5">
+                                                                <div className="avatar-xs m-1">
+                                                                    <span className="avatar-title rounded-circle bg-soft-primary text-primary font-size-16">
+                                                                        A
+                                                                    </span>
+                                                                </div>
+                                                                <UncontrolledTooltip placement="top" target="member5">
+                                                                    Natalie Salerno
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+
+                                                            <Link to="#" className="team-member d-inline-block" id="member6">
+                                                                <img src={avatar4} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member6">
+                                                                    Kenneth Johnson
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+                                                        </div>
+                                                    </td>
+                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>Daniel Canales</td>
+                                                        <td>05 Oct, 2019</td>
+                                                        <td>6.1%</td>
+                                                        <td>2.6%</td>
+                                                        <td>164</td>
+                                                        <td>
+                                                        <div className="team">
+                                                            <Link to="#" className="team-member d-inline-block" id="member7">
+                                                                <img src={avatar6} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member7">
+                                                                    Kenneth Johnson
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+
+                                                            <Link to="#" className="team-member d-inline-block" id="member8">
+                                                                <div className="avatar-xs m-1">
+                                                                    <span className="avatar-title rounded-circle bg-soft-success text-success font-size-16">
+                                                                        D
+                                                                    </span>
+                                                                    <UncontrolledTooltip placement="top" target="member8">
+                                                                        David Conyers
+                                                                    </UncontrolledTooltip>
+                                                                </div>
+                                                            </Link>
+                                                        </div>
+                                                    </td>
+                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">6</th>
+                                                        <td>Jennifer Walker</td>
+                                                        <td>17 Oct, 2019</td>
+                                                        <td>2.1%</td>
+                                                        <td>41.6%</td>
+                                                        <td>192</td>
+                                                        <td>
+                                                        <div className="team">
+                                                            <Link to="#" className="team-member d-inline-block" id="member11" >
+                                                                <div className="avatar-xs m-1">
+                                                                    <span className="avatar-title rounded-circle bg-soft-danger text-danger font-size-16">
+                                                                        K
+                                                                    </span>
+                                                                    <UncontrolledTooltip placement="top" target="member11">
+                                                                        Kenneth Johnson
+                                                                    </UncontrolledTooltip>
+                                                                </div>
+                                                            </Link>
+                                                        </div>
+                                                    </td>
+                                                        <td><span className="badge badge-danger">Delay</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">7</th>
+                                                        <td>Jenny Rose</td>
+                                                        <td>04 Nov, 2019</td>
+                                                        <td>18.1%</td>
+                                                        <td>1.6%</td>
+                                                        <td>94</td>
+                                                        <td>
+                                                        <div className="team">
+                                                            <Link to="#" className="team-member d-inline-block" id="member12">
+                                                                <img src={avatar3} className="rounded-circle avatar-xs m-1" alt="" />
+                                                                <UncontrolledTooltip placement="top" target="member12">
+                                                                    Kenneth Johnson
+                                                                </UncontrolledTooltip>
+                                                            </Link>
+
+                                                        </div>
+                                                    </td>
+                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
+                                        </div>
                                     </CardBody>
                                 </Card>
                             </Col>

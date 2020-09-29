@@ -69,14 +69,14 @@ class UserProfile extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumb */}
-                        <Breadcrumb title="Skote" breadcrumbItem="Profile" />
+                        <Breadcrumb title="Skote" breadcrumbItem="Details" />
 
                          <Row>
                             <Col lg="12">
                              {this.props.error && this.props.error ? <Alert color="danger">{this.props.error}</Alert> : null}
                              {this.props.success && this.props.success ? <Alert color="success">{this.props.success}</Alert> : null}
 
-                                <Card>
+                                {/* <Card>
                                     <CardBody>
                                         <Media>
                                             <div className="mr-3">
@@ -91,21 +91,37 @@ class UserProfile extends Component {
                                             </Media>
                                         </Media>
                                     </CardBody>
-                                </Card>
+                                </Card> */}
                             </Col>
                         </Row>
 
-                        <h4 className="card-title mb-4">Change UserName</h4>
+                        {/* <h4 className="card-title mb-4">Change UserName</h4> */}
 
                         <Card>
                             <CardBody>
                                <AvForm className="form-horizontal" onValidSubmit={(e,v) => { this.handleValidSubmit(e,v) }}>
                                     <div className="form-group">
-                                         <AvField name="username" label="UserName" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="username" label="Name" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Email" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Date of Birth" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group">
+                                         <AvField name="username" label="Chat Groups" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    </div>
+                                    <div className="form-group" style={{height:100}}>
+                                         <AvField name="username" style={{height:100}} label="About Me" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
                                          <AvField name="idx"  value={this.state.idx}  type="hidden"  />
                                     </div>
                                      <div className="text-center mt-4">
-                                         <Button type="submit" color="danger">Edit UserName</Button>
+                                         <Button type="submit" color="danger">Back to Profile</Button>
                                     </div>
                                </AvForm>
                             
