@@ -348,7 +348,7 @@ class EcommerceCustomers extends Component {
                                             <thead>
                                                 <tr>
                                                     <th scope="col" style={{ width: "100px" }}>#</th>
-                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Group Name</th>
                                                     <th scope="col"> Date</th>
                                                     {/* <th scope="col">Status</th> */}
                                                     <th scope="col">Members</th>

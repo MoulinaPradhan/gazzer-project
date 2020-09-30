@@ -26,7 +26,7 @@ class CardInvoice extends Component {
                                         }
 
                                         <h5 className="mb-1 font-size-15 text-truncate">{this.props.data.founder}</h5>
-                                        <Link to="#" className="text-muted">@Skote</Link>
+                                        <Link to="#" className="text-muted">@Gazerr</Link>
                                     </div>
                                 </Col>
 

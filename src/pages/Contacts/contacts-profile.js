@@ -174,62 +174,70 @@ class ContactsProfile extends Component {
                                                 <thead>
                                                     <tr>
                                                         <th scope="col">#</th>
-                                                        <th scope="col">Topics</th>
-                                                        <th scope="col">Start Date</th>
-                                                        <th scope="col">Deadline</th>
-                                                        <th scope="col">Videos</th>
+                                                        <th scope="col">Name</th>
+                                                        <th scope="col">UserName</th>
+                                                        <th scope="col">Email</th>
+                                                        <th scope="col">Mobile</th>
+                                                        <th scope="col">Option</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td> Java</td>
-                                                        <td>2 Sep, 2019</td>
-                                                        <td>20 Oct, 2019</td>
-                                                        <td>506</td>
+                                                        <td> John Doe</td>
+                                                        <td>Jonner@12</td>
+                                                        <td>john@mail.in</td>
+                                                        <td>5064531313</td>
+                                                        <td><button style={{backgroundColor:"#1d4bdb",color:"white",width:"80px",height:"26px",border:0,borderRadius:7}} >View</button></td>
                                                     </tr>
 
                                                     <tr>
                                                         <th scope="row">2</th>
-                                                        <td>Algorithm</td>
-                                                        <td>1 Sep, 2019</td>
-                                                        <td>2 Sep, 2019</td>
-                                                        <td>94</td>
+                                                        <td> Daniel Canales</td>
+                                                        <td>Danniel2</td>
+                                                        <td>cales34@gmail.com</td>
+                                                        <td>45777746444</td>
+                                                        <td><button style={{backgroundColor:"#1d4bdb",color:"white",width:"80px",height:"26px",border:0,borderRadius:7}} >View</button></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">3</th>
-                                                        <td>Designing</td>
-                                                        <td>21 Sep, 2019</td>
-                                                        <td>29 Sep, 2019</td>
-                                                        <td>15</td>
+                                                        <td>Jennifer Walker</td>
+                                                        <td>JennyRouter</td>
+                                                        <td>jenny@mail.com</td>
+                                                        <td>15455578</td>
+                                                        <td><button style={{backgroundColor:"#1d4bdb",color:"white",width:"80px",height:"26px",border:0,borderRadius:7}} >View</button></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">4</th>
-                                                        <td>Data Structure</td>
-                                                        <td>29 Sep, 2019</td>
-                                                        <td>04 Oct, 2019</td>
-                                                        <td>12</td>
+                                                        <td>Kenneth Johnson</td>
+                                                        <td>Ken23</td>
+                                                        <td>JKenny12@mail.com</td>
+                                                        <td>124634465</td>
+                                                        <td><button style={{backgroundColor:"#1d4bdb",color:"white",width:"80px",height:"26px",border:0,borderRadius:7}} >View</button></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">5</th>
-                                                        <td>Maths</td>
-                                                        <td>05 Oct, 2019</td>
-                                                        <td>16 Oct, 2019</td>
-                                                        <td>164</td>
+                                                        <td>Natalie Salerno</td>
+                                                        <td>Natalisa</td>
+                                                        <td>Natalie34@mail.com</td>
+                                                        <td>164789124</td>
+                                                        <td><button style={{backgroundColor:"#1d4bdb",color:"white",width:"80px",height:"26px",border:0,borderRadius:7}} >View</button></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">6</th>
-                                                        <td>Algebra</td>
-                                                        <td>17 Oct, 2019</td>
-                                                        <td>05 Nov, 2019</td>
-                                                        <td>192</td>
+                                                        <td>Emily Watson</td>
+                                                        <td>WatsonEmily</td>
+                                                        <td>Emily@mail.com</td>
+                                                        <td>19244567</td>
+                                                        <td><button style={{backgroundColor:"#1d4bdb",color:"white",width:"80px",height:"26px",border:0,borderRadius:7}} >View</button></td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">7</th>
-                                                        <td>Physics</td>
-                                                        <td>04 Nov, 2019</td>
-                                                        <td>05 Nov, 2019</td>
-                                                        <td>94</td>
+                                                        <td>David Conyers</td>
+                                                        <td>David14</td>
+                                                        <td>davidConvers@mail.com</td>
+                                                        <td>947894536</td>
+                                                        <td><button style={{backgroundColor:"#1d4bdb",color:"white",width:"80px",height:"26px",border:0,borderRadius:7}} >View</button></td>
                                                     </tr>
                                                 </tbody>
                                             </Table>

@@ -3,7 +3,7 @@ import MockAdapter from 'axios-mock-adapter';
 import accessToken from "../jwt-token-access/accessToken";
 
 let users = [
-  { uid: 1, username: 'admin', role : 'admin', password: '123456', email: 'admin@themesbrand.com' }
+  { uid: 1, username: 'admin', role : 'admin', password: '123456', email: 'admin@admin.com' }
 ];
   
 const fakeBackend = () => {

@@ -61,7 +61,7 @@ class Login extends Component {
                                             <AvForm className="form-horizontal">
 
                                                 <div className="form-group">
-                                                    <AvField name="email" label="Email" value="" className="form-control" placeholder="Enter email" type="email" required />
+                                                    <AvField name="email" label="Email" value="" className="form-control" placeholder="admin@admin.com" type="email" required />
                                                 </div>
 
                                                 <div className="form-group">

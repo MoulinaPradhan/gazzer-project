@@ -41,7 +41,7 @@ class ProjectsList extends Component {
                                             <thead>
                                                 <tr>
                                                     <th scope="col" style={{ width: "100px" }}>#</th>
-                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Group Name</th>
                                                     <th scope="col"> Date</th>
                                                     {/* <th scope="col">Status</th> */}
                                                     <th scope="col">Members</th>
@@ -175,7 +175,7 @@ class ProjectsList extends Component {
                                                 <tr>
                                                     <td><img src={img5} alt="" className="avatar-sm" /></td>
                                                     <td>
-                                                        <h5 className="text-truncate font-size-14"><Link to="#" className="text-dark">Skote Dashboard UI</Link></h5>
+                                                        <h5 className="text-truncate font-size-14"><Link to="#" className="text-dark">Gazerr Dashboard UI</Link></h5>
                                                         <p className="text-muted mb-0">Separate existence is a myth</p>
                                                     </td>
                                                     <td>22 Oct, 19</td>

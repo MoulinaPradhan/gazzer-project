@@ -89,13 +89,13 @@ class InvoiceDetail extends Component {
                                                 <tbody>
                                                     <tr>
                                                         <td>01</td>
-                                                        <td>Skote - Bootstrap 4 Admin Dashboard</td>
+                                                        <td>Gazerr - Bootstrap 4 Admin Dashboard</td>
                                                         <td className="text-right">$499.00</td>
                                                     </tr>
 
                                                     <tr>
                                                         <td>02</td>
-                                                        <td>Skote - Bootstrap 4 Landing Template</td>
+                                                        <td>Gazerr - Bootstrap 4 Landing Template</td>
                                                         <td className="text-right">$399.00</td>
                                                     </tr>
 

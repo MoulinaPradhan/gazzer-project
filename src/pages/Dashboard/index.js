@@ -60,10 +60,10 @@ class Dashboard extends Component {
 
                         <Row>
                             <Col xl="4">
-                                <WelcomeComp />
+                                {/* <WelcomeComp /> */}
                                 {/* <MonthlyEarning /> */}
                             </Col>
-                            <Col xl="8">
+                            <Col xl="12">
                                 <Row>
                                     {/* Reports Render */}
                                     {
@@ -89,7 +89,7 @@ class Dashboard extends Component {
                                     }
                                 </Row>
 
-                                <Card>
+                                {/* <Card>
                                     <CardBody>
                                         <CardTitle className="mb-4 float-sm-left">
                                             Email Sent
@@ -106,9 +106,9 @@ class Dashboard extends Component {
                                             </ul>
                                         </div>
                                         <div className="clearfix"></div>
-                                        {/* <StackedColumnChart /> */}
+                                        <StackedColumnChart />
                                     </CardBody>
-                                </Card>
+                                </Card> */}
                             </Col>
                         </Row>
 

@@ -148,7 +148,7 @@ const authProtectedRoutes = [
 	{ path: "/dashboard-crypto", component: DashboardCrypto },
 
 	//Crypto
-	{ path : "/crypto-wallet", component : CryptoWallet },
+	// { path : "/crypto-wallet", component : CryptoWallet },
 	{ path : "/crypto-buy-sell", component : CryptoBuySell },
 	{ path : "/crypto-exchange", component : CryptoExchange },
 	{ path : "/crypto-lending", component : CryptoLending },
@@ -284,7 +284,7 @@ const publicRoutes = [
 	{ path: "/pages-login", component: Login1 },
 	{ path: "/pages-register", component: Register1 },
 	{ path: "/pages-forgot-pwd", component: ForgetPwd1 },
-	{ path : "/auth-lock-screen", component: LockScreen }
+	// { path : "/auth-lock-screen", component: LockScreen }
 ];
 
 export { authProtectedRoutes, publicRoutes };
