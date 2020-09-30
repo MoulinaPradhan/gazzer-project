@@ -290,7 +290,7 @@ class RightSidebar extends Component {
                 <h6 className="text-center">Choose Layouts</h6>
 
                 <div className="mb-2">
-                  <Link to="//skote-v-light.react.themesbrand.com" target="_blank">
+                  <Link to="//Gazerr-v-light.react.themesbrand.com" target="_blank">
                     <img
                       src={layout1}
                       className="img-fluid img-thumbnail"
@@ -301,7 +301,7 @@ class RightSidebar extends Component {
 
                 <div className="mb-2">
                   <Link
-                    to="//skote-v-dark.react.themesbrand.com"
+                    to="//Gazerr-v-dark.react.themesbrand.com"
                     target="_blank"
                   >
                     <img
@@ -314,7 +314,7 @@ class RightSidebar extends Component {
 
                 <div className="mb-2">
                   <Link
-                    to="//skote-v-rtl.react.themesbrand.com"
+                    to="//Gazerr-v-rtl.react.themesbrand.com"
                     target="_blank"
                   >
                     <img
