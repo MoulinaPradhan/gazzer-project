@@ -113,78 +113,78 @@ class TasksKanban extends Component {
                                                 <thead>
                                                     <tr>
                                                         <th scope="col">#</th>
-                                                        <th scope="col">Name</th>
+                                                        <th scope="col">Names</th>
                                                         <th scope="col">Date</th>
-                                                        <th scope="col">Traffic</th>
-                                                        <th scope="col">Bounce Rate</th>
                                                         <th scope="col">Sessions</th>
-                                                        <th scope="col">Status</th>
+                                                        <th scope="col">Start Time</th>
+                                                        <th scope="col">End Time</th>
+                                                        {/* <th scope="col">Status</th> */}
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td>Daniel Canales</td>
+                                                        <td>Daniel Canales , Natalie Salerno</td>
                                                         <td>2 Sep, 2019</td>
-                                                        <td>8.1%</td>
-                                                        <td>21.6%</td>
-                                                        <td>506</td>
-                                                        <td><span className="badge badge-warning font-size-10">Pending</span></td>
+                                                        <td>80</td>
+                                                        <td>4:30 am</td>
+                                                        <td>5:30 am</td>
+                                                        {/* <td><span className="badge badge-warning font-size-10">Pending</span></td> */}
                                                     </tr>
 
                                                     <tr>
                                                         <th scope="row">2</th>
-                                                        <td>Natalie Salerno</td>
+                                                        <td>Natalie Salerno , John Doe</td>
                                                         <td>1 Sep, 2019</td>
-                                                        <td>20.1%</td>
-                                                        <td>31.6%</td>
-                                                        <td>94</td>
-                                                        <td><span className="badge badge-danger">Delay</span></td>
+                                                        <td>201</td>
+                                                        <td>10:00 am</td>
+                                                        <td>10:30 am</td>
+                                                        {/* <td><span className="badge badge-danger">Delay</span></td> */}
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">3</th>
-                                                        <td>John Doe</td>
+                                                        <td>John Doe , Daniel Canales</td>
                                                         <td>21 Sep, 2019</td>
-                                                        <td>82.1%</td>
-                                                        <td>2.6%</td>
-                                                        <td>15</td>
-                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                        <td>82</td>
+														<td>1:00 am</td>
+                                                        <td>1:30 am</td>
+                                                        {/* <td><span className="badge badge-primary">Completed</span></td> */}
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">4</th>
-                                                        <td>Kenneth Johnson</td>
+                                                        <td>Kenneth Johnson , Daniel Canales</td>
                                                         <td>29 Sep, 2019</td>
-                                                        <td>8.9%</td>
-                                                        <td>11.6%</td>
-                                                        <td>12</td>
-                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                        <td>89</td>
+														<td>9:30 am</td>
+                                                        <td>9:35 am</td>
+                                                        {/* <td><span className="badge badge-primary">Completed</span></td> */}
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">5</th>
-                                                        <td>Daniel Canales</td>
+                                                        <td>Daniel Canales , Kenneth Johnson</td>
                                                         <td>05 Oct, 2019</td>
-                                                        <td>6.1%</td>
-                                                        <td>2.6%</td>
-                                                        <td>164</td>
-                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                        <td>600</td>
+                                                        <td>9:30 am</td>
+                                                        <td>10:30 am</td>
+                                                        {/* <td><span className="badge badge-primary">Completed</span></td> */}
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">6</th>
-                                                        <td>Jennifer Walker</td>
+                                                        <td>Jennifer Walker ,Kenneth Johnson</td>
                                                         <td>17 Oct, 2019</td>
-                                                        <td>2.1%</td>
-                                                        <td>41.6%</td>
-                                                        <td>192</td>
-                                                        <td><span className="badge badge-danger">Delay</span></td>
+                                                        <td>21</td>
+                                                        <td>4:30 am</td>
+                                                        <td>5:30 am</td>
+                                                        {/* <td><span className="badge badge-danger">Delay</span></td> */}
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">7</th>
-                                                        <td>Jenny Rose</td>
+                                                        <td>Jenny Rose, John Doe</td>
                                                         <td>04 Nov, 2019</td>
-                                                        <td>18.1%</td>
-                                                        <td>1.6%</td>
-                                                        <td>94</td>
-                                                        <td><span className="badge badge-primary">Completed</span></td>
+                                                        <td>14</td>
+														<td>11:00 am</td>
+                                                        <td>11:30 am</td>
+                                                        {/* <td><span className="badge badge-primary">Completed</span></td> */}
                                                     </tr>
                                                 </tbody>
                                             </Table>

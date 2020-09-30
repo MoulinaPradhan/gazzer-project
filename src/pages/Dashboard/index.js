@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 //import Charts
 import StackedColumnChart from "./StackedColumnChart";
+// import chartJs
+import LineChart from "../AllCharts/chartjs/linechart";
 
 import modalimage1 from "../../assets/images/product/img-7.png";
 import modalimage2 from "../../assets/images/product/img-4.png";
@@ -125,7 +127,7 @@ class Dashboard extends Component {
 
                         <Row>
                             <Col lg="12">
-                                {/* <LatestTranaction /> */}
+                                 <LineChart/>
                             </Col>
                         </Row>
                     </Container>

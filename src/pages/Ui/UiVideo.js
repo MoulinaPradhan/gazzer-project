@@ -76,28 +76,35 @@ class UiVideo extends Component {
                                         <div className="embed-responsive embed-responsive-1by1">
                                             <iframe title="test3" className="embed-responsive-item" src="https://www.youtube.com/embed/1y_kfWUCFDQ"></iframe>
                                         </div> */}
-                                        <AvForm className="form-horizontal" onValidSubmit={(e,v) => { this.handleValidSubmit(e,v) }}>
+                                       <AvForm className="form-horizontal" onValidSubmit={(e,v) => { this.handleValidSubmit(e,v) }}>
                                     <div className="form-group">
-                                         <AvField name="username" label="Name" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
-                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                        <div name="username" style={{fontWeight:600}}>Name</div>
+                                        <div label="Name">admin</div>
+                                         
                                     </div>
                                     <div className="form-group">
-                                         <AvField name="username" label="Email" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
-                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                         {/* <AvField name="username" label="Email" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  /> */}
+                                             <div name="username" style={{fontWeight:600}}>Email</div>
+                                        <div label="Name">admin</div>
                                     </div>
                                     <div className="form-group">
-                                         <AvField name="username" label="Date of Birth" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
-                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    <div name="username" style={{fontWeight:600}}>Date of Birth</div>
+                                        <div label="Name">DD/MM/YYYY</div>
+                                         {/* <AvField name="username" label="Date of Birth" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  /> */}
                                     </div>
                                     <div className="form-group">
-                                         <AvField name="username" label="Chat Groups" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
-                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                    <div name="username" style={{fontWeight:600}}>Chat Groups</div>
+                                        <div label="Name">admin</div>
                                     </div>
                                     <div className="form-group" style={{height:100}}>
-                                         <AvField name="username" style={{height:100}} label="About Me" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
-                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  />
+                                         {/* <AvField name="username" style={{height:100}} label="About Me" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
+                                         <AvField name="idx"  value={this.state.idx}  type="hidden"  /> */}
+                                             <div name="username" style={{fontWeight:600}}>About Me</div>
+                                        <div label="Name">admin</div>
                                     </div>
-                                     <div className="text-center mt-4">
+                                     <div className="mt-4">
                                          <Button type="submit" color="danger">Back to Profile</Button>
                                     </div>
                                </AvForm>

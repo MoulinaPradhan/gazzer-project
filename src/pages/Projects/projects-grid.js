@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Pagination, PaginationItem, PaginationLink } from "reactstrap";
+import { Container, Row, Card,CardBody,CardTitle, Table,Col, Pagination, PaginationItem, PaginationLink } from "reactstrap";
 
 //Import Breadcrumb
 import Breadcrumbs from '../../components/Common/Breadcrumb';
@@ -95,52 +95,88 @@ class ProjectsGrid extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumbs */}
-                        <Breadcrumbs title="Projects" breadcrumbItem="Projects Grid" />
+                        <Breadcrumbs title="Files" breadcrumbItem="Files Summary" />
 
 
-                        <Row>
-                            {/* Import Cards */}
+                        {/* <Row>
+                            {/* Import Cards 
                             <CardProject projects={this.state.projects} />
-                        </Row>
+                        </Row>*/}
 
-                        <Row>
-                            <Col lg="12">
-                                <Pagination className="pagination pagination-rounded justify-content-center mt-2 mb-5">
-                                    <PaginationItem disabled>
-                                        <PaginationLink previous href="#" />
-                                    </PaginationItem>
-                                    <PaginationItem>
-                                        <PaginationLink href="#">
-                                            1
-                                        </PaginationLink>
-                                    </PaginationItem>
-                                    <PaginationItem active>
-                                        <PaginationLink href="#">
-                                            2
-                                        </PaginationLink>
-                                    </PaginationItem>
-                                    <PaginationItem>
-                                        <PaginationLink href="#">
-                                            3
-                                        </PaginationLink>
-                                    </PaginationItem>
-                                    <PaginationItem>
-                                        <PaginationLink href="#">
-                                            4
-                                        </PaginationLink>
-                                    </PaginationItem>
-                                    <PaginationItem>
-                                        <PaginationLink href="#">
-                                            5
-                                        </PaginationLink>
-                                    </PaginationItem>
-                                    <PaginationItem>
-                                        <PaginationLink next href="#" />
-                                    </PaginationItem>
-                                </Pagination>
-                            </Col>
-                        </Row>
+                        <Row > 
+                        <Col lg="12">
+<Card>
+                                    <CardBody>
+                                        <CardTitle className="mb-4">Profiles</CardTitle>
+                                        <div className="table-responsive">
+                                            <Table className="table table-nowrap table-hover mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Topics</th>
+                                                        <th scope="col">Start Date</th>
+                                                        <th scope="col">Deadline</th>
+                                                        <th scope="col">Videos</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td> Java</td>
+                                                        <td>2 Sep, 2019</td>
+                                                        <td>20 Oct, 2019</td>
+                                                        <td>506</td>
+                                                    </tr>
 
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>Algorithm</td>
+                                                        <td>1 Sep, 2019</td>
+                                                        <td>2 Sep, 2019</td>
+                                                        <td>94</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>Designing</td>
+                                                        <td>21 Sep, 2019</td>
+                                                        <td>29 Sep, 2019</td>
+                                                        <td>15</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>Data Structure</td>
+                                                        <td>29 Sep, 2019</td>
+                                                        <td>04 Oct, 2019</td>
+                                                        <td>12</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>Maths</td>
+                                                        <td>05 Oct, 2019</td>
+                                                        <td>16 Oct, 2019</td>
+                                                        <td>164</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">6</th>
+                                                        <td>Algebra</td>
+                                                        <td>17 Oct, 2019</td>
+                                                        <td>05 Nov, 2019</td>
+                                                        <td>192</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">7</th>
+                                                        <td>Physics</td>
+                                                        <td>04 Nov, 2019</td>
+                                                        <td>05 Nov, 2019</td>
+                                                        <td>94</td>
+                                                    </tr>
+                                                </tbody>
+                                            </Table>
+                                        </div>
+                                    </CardBody>
+                                </Card>
+                                </Col>
+</Row>
                     </Container>
                 </div>
             </React.Fragment>

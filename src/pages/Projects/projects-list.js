@@ -43,10 +43,10 @@ class ProjectsList extends Component {
                                                     <th scope="col" style={{ width: "100px" }}>#</th>
                                                     <th scope="col">Name</th>
                                                     <th scope="col"> Date</th>
-                                                    <th scope="col">Status</th>
+                                                    {/* <th scope="col">Status</th> */}
                                                     <th scope="col">Members</th>
-                                                    <th scope="col">Traffic</th>
-                                                    <th scope="col">Action</th>
+                                                    <th scope="col">Start Time</th>
+                                                    <th scope="col">End Time</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -57,7 +57,7 @@ class ProjectsList extends Component {
                                                         <p className="text-muted mb-0">It will be as simple as Occidental</p>
                                                     </td>
                                                     <td>15 Oct, 19</td>
-                                                    <td><span className="badge badge-primary">Completed</span></td>
+                                                    {/* <td><span className="badge badge-primary">Completed</span></td> */}
                                                     <td>
                                                         <div className="team">
                                                             <Link to="#" className="team-member d-inline-block" id="member1">
@@ -76,19 +76,8 @@ class ProjectsList extends Component {
 
                                                         </div>
                                                     </td>
-                                                    <td>4.34%</td>
-                                                    <td>
-                                                        <UncontrolledDropdown>
-                                                            <DropdownToggle href="#" className="card-drop" tag="i">
-                                                                <i className="mdi mdi-dots-horizontal font-size-18"></i>
-                                                            </DropdownToggle>
-                                                            <DropdownMenu right>
-                                                                <DropdownItem href="#">Action</DropdownItem>
-                                                                <DropdownItem href="#">Another action</DropdownItem>
-                                                                <DropdownItem href="#">Something else here</DropdownItem>
-                                                            </DropdownMenu>
-                                                        </UncontrolledDropdown>
-                                                    </td>
+                                                    <td>11:10 am</td>
+                                                    <td>12:45 pm</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src={img2} alt="" className="avatar-sm" /></td>
@@ -97,7 +86,7 @@ class ProjectsList extends Component {
                                                         <p className="text-muted mb-0">To achieve it would be necessary</p>
                                                     </td>
                                                     <td>22 Oct, 19</td>
-                                                    <td><span className="badge badge-warning">Pending</span></td>
+                                                    {/* <td><span className="badge badge-warning">Pending</span></td> */}
                                                     <td>
                                                         <div className="team">
                                                             <Link to="#" className="team-member d-inline-block" id="member3">
@@ -109,19 +98,8 @@ class ProjectsList extends Component {
 
                                                         </div>
                                                     </td>
-                                                    <td>80.34%</td>
-                                                    <td>
-                                                        <UncontrolledDropdown>
-                                                            <DropdownToggle href="#" className="card-drop" tag="i">
-                                                                <i className="mdi mdi-dots-horizontal font-size-18"></i>
-                                                            </DropdownToggle>
-                                                            <DropdownMenu right>
-                                                                <DropdownItem href="#">Action</DropdownItem>
-                                                                <DropdownItem href="#">Another action</DropdownItem>
-                                                                <DropdownItem href="#">Something else here</DropdownItem>
-                                                            </DropdownMenu>
-                                                        </UncontrolledDropdown>
-                                                    </td>
+                                                    <td>1:10 am</td>
+                                                    <td>2:45 am</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src={img3} alt="" className="avatar-sm" /></td>
@@ -130,7 +108,7 @@ class ProjectsList extends Component {
                                                         <p className="text-muted mb-0">For science, music, sport, etc</p>
                                                     </td>
                                                     <td>13 Oct, 19</td>
-                                                    <td><span className="badge badge-danger">Delay</span></td>
+                                                    {/* <td><span className="badge badge-danger">Delay</span></td> */}
                                                     <td>
                                                         <div className="team">
                                                             <Link to="#" className="team-member d-inline-block" id="member4">
@@ -158,19 +136,8 @@ class ProjectsList extends Component {
                                                             </Link>
                                                         </div>
                                                     </td>
-                                                    <td>24.34%</td>
-                                                    <td>
-                                                        <UncontrolledDropdown>
-                                                            <DropdownToggle href="#" className="card-drop" tag="i">
-                                                                <i className="mdi mdi-dots-horizontal font-size-18"></i>
-                                                            </DropdownToggle>
-                                                            <DropdownMenu right>
-                                                                <DropdownItem href="#">Action</DropdownItem>
-                                                                <DropdownItem href="#">Another action</DropdownItem>
-                                                                <DropdownItem href="#">Something else here</DropdownItem>
-                                                            </DropdownMenu>
-                                                        </UncontrolledDropdown>
-                                                    </td>
+                                                    <td>7:10 am</td>
+                                                    <td>7:45 am</td>
                                                 </tr>
 
                                                 <tr>
@@ -180,7 +147,7 @@ class ProjectsList extends Component {
                                                         <p className="text-muted mb-0">If several languages coalesce</p>
                                                     </td>
                                                     <td>14 Oct, 19</td>
-                                                    <td><span className="badge badge-primary">Completed</span></td>
+                                                    {/* <td><span className="badge badge-primary">Completed</span></td> */}
                                                     <td>
                                                         <div className="team">
                                                             <Link to="#" className="team-member d-inline-block" id="member7">
@@ -202,19 +169,8 @@ class ProjectsList extends Component {
                                                             </Link>
                                                         </div>
                                                     </td>
-                                                    <td>24.34%</td>
-                                                    <td>
-                                                        <UncontrolledDropdown>
-                                                            <DropdownToggle href="#" className="card-drop" tag="i">
-                                                                <i className="mdi mdi-dots-horizontal font-size-18"></i>
-                                                            </DropdownToggle>
-                                                            <DropdownMenu right>
-                                                                <DropdownItem href="#">Action</DropdownItem>
-                                                                <DropdownItem href="#">Another action</DropdownItem>
-                                                                <DropdownItem href="#">Something else here</DropdownItem>
-                                                            </DropdownMenu>
-                                                        </UncontrolledDropdown>
-                                                    </td>
+                                                    <td>11:10 am</td>
+                                                    <td>2:45 pm</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src={img5} alt="" className="avatar-sm" /></td>
@@ -223,7 +179,7 @@ class ProjectsList extends Component {
                                                         <p className="text-muted mb-0">Separate existence is a myth</p>
                                                     </td>
                                                     <td>22 Oct, 19</td>
-                                                    <td><span className="badge badge-primary">Completed</span></td>
+                                                    {/* <td><span className="badge badge-primary">Completed</span></td> */}
                                                     <td>
                                                         <div className="team">
                                                             <Link to="#" className="team-member d-inline-block" id="member9">
@@ -240,19 +196,8 @@ class ProjectsList extends Component {
                                                             </Link>
                                                         </div>
                                                     </td>
-                                                    <td>50.34%</td>
-                                                    <td>
-                                                        <UncontrolledDropdown>
-                                                            <DropdownToggle href="#" className="card-drop" tag="i">
-                                                                <i className="mdi mdi-dots-horizontal font-size-18"></i>
-                                                            </DropdownToggle>
-                                                            <DropdownMenu right>
-                                                                <DropdownItem href="#">Action</DropdownItem>
-                                                                <DropdownItem href="#">Another action</DropdownItem>
-                                                                <DropdownItem href="#">Something else here</DropdownItem>
-                                                            </DropdownMenu>
-                                                        </UncontrolledDropdown>
-                                                    </td>
+                                                    <td>3:10 pm</td>
+                                                    <td>3:45 pm</td>
                                                 </tr>
                                                 <tr>
                                                     <td><img src={img6} alt="" className="avatar-sm" /></td>
@@ -261,7 +206,7 @@ class ProjectsList extends Component {
                                                         <p className="text-muted mb-0">For science, music, sport, etc</p>
                                                     </td>
                                                     <td>24 Oct, 19</td>
-                                                    <td><span className="badge badge-warning">pending</span></td>
+                                                    {/* <td><span className="badge badge-warning">pending</span></td> */}
                                                     <td>
                                                         <div className="team">
                                                             <Link to="#" className="team-member d-inline-block" id="member11" >
@@ -276,19 +221,8 @@ class ProjectsList extends Component {
                                                             </Link>
                                                         </div>
                                                     </td>
-                                                    <td>80.34%</td>
-                                                    <td>
-                                                        <UncontrolledDropdown>
-                                                            <DropdownToggle href="#" className="card-drop" tag="i">
-                                                                <i className="mdi mdi-dots-horizontal font-size-18"></i>
-                                                            </DropdownToggle>
-                                                            <DropdownMenu right>
-                                                                <DropdownItem href="#">Action</DropdownItem>
-                                                                <DropdownItem href="#">Another action</DropdownItem>
-                                                                <DropdownItem href="#">Something else here</DropdownItem>
-                                                            </DropdownMenu>
-                                                        </UncontrolledDropdown>
-                                                    </td>
+                                                    <td>11:10 am</td>
+                                                    <td>12:45 pm</td>
                                                 </tr>
 
                                                 <tr>
@@ -298,7 +232,7 @@ class ProjectsList extends Component {
                                                         <p className="text-muted mb-0">It will be as simple as Occidental</p>
                                                     </td>
                                                     <td>15 Oct, 19</td>
-                                                    <td><span className="badge badge-danger">Delay</span></td>
+                                                    {/* <td><span className="badge badge-danger">Delay</span></td> */}
                                                     <td>
                                                         <div className="team">
                                                             <Link to="#" className="team-member d-inline-block" id="member12">
@@ -310,19 +244,8 @@ class ProjectsList extends Component {
 
                                                         </div>
                                                     </td>
-                                                    <td>64.34%</td>
-                                                    <td>
-                                                        <UncontrolledDropdown>
-                                                            <DropdownToggle href="#" className="card-drop" tag="i">
-                                                                <i className="mdi mdi-dots-horizontal font-size-18"></i>
-                                                            </DropdownToggle>
-                                                            <DropdownMenu right>
-                                                                <DropdownItem href="#">Action</DropdownItem>
-                                                                <DropdownItem href="#">Another action</DropdownItem>
-                                                                <DropdownItem href="#">Something else here</DropdownItem>
-                                                            </DropdownMenu>
-                                                        </UncontrolledDropdown>
-                                                    </td>
+                                                    <td>1:10 am</td>
+                                                    <td>2:45 am</td>
                                                 </tr>
                                             </tbody>
                                         </Table>

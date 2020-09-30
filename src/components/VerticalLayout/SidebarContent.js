@@ -164,7 +164,7 @@ class SidebarContent extends Component {
                             <span>{this.props.t('Files')}</span>
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="/projects-list">{this.props.t('Summary')}</Link></li>
+                            <li><Link to="/projects-grid">{this.props.t('Summary')}</Link></li>
                             <li><Link to="/crypto-lending">{this.props.t('Details')}</Link></li>
                         </ul>
                     </li>
@@ -176,7 +176,7 @@ class SidebarContent extends Component {
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
                             <li><Link to="/tables-datatable">{this.props.t('Summary')}</Link></li>
-                            <li><Link to="/projects-create">{this.props.t('Dtails')}</Link></li>
+                            <li><Link to="/projects-create">{this.props.t('Details')}</Link></li>
                             {/* <li><Link to="/contacts-profile">{this.props.t('Project Overview')}</Link></li> */}
                             {/* <li><Link to="projects-create">{this.props.t('Create New')}</Link></li>  */}
                         </ul>
