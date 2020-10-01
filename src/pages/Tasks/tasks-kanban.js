@@ -37,7 +37,7 @@ class TasksKanban extends Component {
 						{
 							id: 13,
 							content: {
-								title: "Variously  - d a Skote Logo", date: "16 Oct, 2019", img: avatar4, text: "F", budget: 86, status: "Waiting", class: "secondary"
+								title: "Variously  - d a Gazerr Logo", date: "16 Oct, 2019", img: avatar4, text: "F", budget: 86, status: "Waiting", class: "secondary"
 							}
 						},
 					]
@@ -102,7 +102,7 @@ class TasksKanban extends Component {
 				<div className="page-content">
 					<Container fluid>
 						{/* Render Breadcrumbs */}
-						<Breadcrumbs title="Room" breadcrumbItem="Room" />
+						<Breadcrumbs title="Rooms" breadcrumbItem="Individual" />
 						
 						{/* <UncontrolledBoard board={this.state} content={this.state.columns} /> */}
 					

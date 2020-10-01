@@ -47,7 +47,7 @@ series: {
     ]
 }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class AreaChartToast extends Component {
   constructor(props) {

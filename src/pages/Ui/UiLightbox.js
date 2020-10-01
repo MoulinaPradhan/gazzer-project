@@ -143,7 +143,7 @@ class UiLightbox extends Component {
                           <img
                             onClick={() => this.setState({ isFits: true })}
                             className="img-fluid"
-                            alt="Skote"
+                            alt="Gazerr"
                             src={img2}
                             width="145"
                           />

@@ -31,7 +31,7 @@ class ProjectsList extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumbs */}
-                        <Breadcrumbs title="Chats" breadcrumbItem="Chats Group" />
+                        <Breadcrumbs title="Chats" breadcrumbItem="Group" />
 
                         <Row>
                             <Col lg="12">

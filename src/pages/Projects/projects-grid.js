@@ -52,7 +52,7 @@ class ProjectsGrid extends Component {
                     ]
                 },
                 {
-                    id: 5, img: img5, name: "Skote Dashboard UI", description: "Separate existence is a myth", status: "Completed", color: "primary", date: "13 Oct, 19", comments: 194,
+                    id: 5, img: img5, name: "Gazerr Dashboard UI", description: "Separate existence is a myth", status: "Completed", color: "primary", date: "13 Oct, 19", comments: 194,
                     child: [
                         { id: 1, img: avatar3, name: "Steven Jenkins" },
                         { id: 2, img: avatar2, name: "Ruby Clinton" },
@@ -95,7 +95,7 @@ class ProjectsGrid extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumbs */}
-                        <Breadcrumbs title="Files" breadcrumbItem="Files Summary" />
+                        <Breadcrumbs title="Files" breadcrumbItem="Summary" />
 
 
                         {/* <Row>
@@ -107,69 +107,63 @@ class ProjectsGrid extends Component {
                         <Col lg="12">
 <Card>
                                     <CardBody>
-                                        <CardTitle className="mb-4">Profiles</CardTitle>
+                                        {/* <CardTitle className="mb-4">Profiles</CardTitle> */}
                                         <div className="table-responsive">
                                             <Table className="table table-nowrap table-hover mb-0">
                                                 <thead>
                                                     <tr>
                                                         <th scope="col">#</th>
-                                                        <th scope="col">Topics</th>
-                                                        <th scope="col">Start Date</th>
-                                                        <th scope="col">Deadline</th>
-                                                        <th scope="col">Videos</th>
+                                                        <th scope="col">File Name</th>
+                                                        <th scope="col">Type</th>
+                                                        <th scope="col">Size</th>
+                                                        <th scope="col">Downloads</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
                                                         <th scope="row">1</th>
                                                         <td> Java</td>
-                                                        <td>2 Sep, 2019</td>
-                                                        <td>20 Oct, 2019</td>
+                                                        <td>PDF</td>
+                                                        <td>21 MB</td>
                                                         <td>506</td>
                                                     </tr>
 
                                                     <tr>
                                                         <th scope="row">2</th>
                                                         <td>Algorithm</td>
-                                                        <td>1 Sep, 2019</td>
-                                                        <td>2 Sep, 2019</td>
+                                                        <td>PDF</td>
+                                                        <td>452 MB</td>
                                                         <td>94</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">3</th>
                                                         <td>Designing</td>
-                                                        <td>21 Sep, 2019</td>
-                                                        <td>29 Sep, 2019</td>
+                                                        <td>DOC</td>
+                                                        <td>50 KB</td>
                                                         <td>15</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">4</th>
-                                                        <td>Data Structure</td>
-                                                        <td>29 Sep, 2019</td>
-                                                        <td>04 Oct, 2019</td>
+                                                        <td>CAT</td>
+                                                        <td>JPEG</td>
+                                                        <td>402 KB</td>
                                                         <td>12</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">5</th>
                                                         <td>Maths</td>
-                                                        <td>05 Oct, 2019</td>
-                                                        <td>16 Oct, 2019</td>
+                                                        <td>PDF</td>
+                                                        <td>100 KB</td>
                                                         <td>164</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">6</th>
                                                         <td>Algebra</td>
-                                                        <td>17 Oct, 2019</td>
-                                                        <td>05 Nov, 2019</td>
+                                                        <td>DOC</td>
+                                                        <td>2 GB</td>
                                                         <td>192</td>
                                                     </tr>
-                                                    <tr>
-                                                        <th scope="row">7</th>
-                                                        <td>Physics</td>
-                                                        <td>04 Nov, 2019</td>
-                                                        <td>05 Nov, 2019</td>
-                                                        <td>94</td>
-                                                    </tr>
+                                                   
                                                 </tbody>
                                             </Table>
                                         </div>

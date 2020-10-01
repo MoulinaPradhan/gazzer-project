@@ -78,7 +78,7 @@ class LockScreen extends Component {
                                 </Card>
                                 <div className="mt-5 text-center">
                                     <p>Not you ? return <Link to="/login" className="font-weight-medium text-primary"> Sign In </Link> </p>
-                                    <p>© 2020 Skote. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                    <p>© 2020 Gazerr. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p>
                                 </div>
 
                             </Col>

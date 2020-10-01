@@ -214,7 +214,7 @@ class CryptoOrders extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumb */}
-                        <Breadcrumbs title="Crypto" breadcrumbItem="Summary" />
+                        <Breadcrumbs title="Videos" breadcrumbItem="Summary" />
         
                         <Row>
                             <Col lg="12">

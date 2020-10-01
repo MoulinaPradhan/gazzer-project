@@ -49,7 +49,7 @@ class PagesComingsoon extends Component {
                                             </div>
                                         </Col>
                                     </Row>
-                                    <h4 className="mt-5">Let's get started with Skote</h4>
+                                    <h4 className="mt-5">Let's get started with Gazerr</h4>
                                     <p className="text-muted">It will be as simple as Occidental in fact it will be Occidental.</p>
 
                                     <Row className="justify-content-center mt-5">

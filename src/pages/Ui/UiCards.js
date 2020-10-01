@@ -33,7 +33,7 @@ class UiCards extends Component {
                         <Row>
                             <Col mg={6} xl={3}>
                                 <Card>
-                                    <CardImg top className="img-fluid" src={img1} alt="Skote" />
+                                    <CardImg top className="img-fluid" src={img1} alt="Gazerr" />
                                     <CardBody>
                                         <CardTitle className="mt-0">Card title</CardTitle>
                                         <CardText>Some quick example text to build on the card title and make
@@ -44,7 +44,7 @@ class UiCards extends Component {
                             </Col>
                             <Col mg={6} xl={3}>
                                 <Card>
-                                    <CardImg top className="img-fluid" src={img2} alt="Skote" />
+                                    <CardImg top className="img-fluid" src={img2} alt="Gazerr" />
                                     <CardBody>
                                         <CardTitle className="mt-0">Card title</CardTitle>
                                         <CardText>Some quick example text to build on the card title and make
@@ -65,7 +65,7 @@ class UiCards extends Component {
                             <Col mg={6} xl={3}>
 
                                 <Card>
-                                    <CardImg top className="img-fluid" src={img3} alt="Skote" />
+                                    <CardImg top className="img-fluid" src={img3} alt="Gazerr" />
                                     <CardBody>
                                         <CardText>Some quick example text to build on the card title and make
                                             up the bulk of the card's content.</CardText>
@@ -78,7 +78,7 @@ class UiCards extends Component {
                                         <CardTitle className="mt-0">Card title</CardTitle>
                                         <CardSubtitle className="font-14 text-muted">Support card subtitle</CardSubtitle>
                                     </CardBody>
-                                    <CardImg className="img-fluid" src={img4} alt="Skote" />
+                                    <CardImg className="img-fluid" src={img4} alt="Gazerr" />
                                     <CardBody>
                                         <CardText>Some quick example text to build on the card title and make
                                             up the bulk of the card's content.</CardText>
@@ -187,7 +187,7 @@ class UiCards extends Component {
                         <Row>
                             <Col lg={4}>
                                 <Card>
-                                    <CardImg top className="img-fluid" src={img5} alt="Skote" />
+                                    <CardImg top className="img-fluid" src={img5} alt="Gazerr" />
                                     <CardBody>
                                         <CardTitle className="mt-0">Card title</CardTitle>
                                         <CardText>This is a wider card with supporting text below as a
@@ -211,13 +211,13 @@ class UiCards extends Component {
                                             <small className="text-muted">Last updated 3 mins ago</small>
                                         </CardText>
                                     </CardBody>
-                                    <CardImg bottom className="img-fluid" src={img7} alt="Skote" />
+                                    <CardImg bottom className="img-fluid" src={img7} alt="Gazerr" />
                                 </Card>
                             </Col>
 
                             <Col lg={4}>
                                 <Card>
-                                    <CardImg className="img-fluid" src={img6} alt="Skote" />
+                                    <CardImg className="img-fluid" src={img6} alt="Gazerr" />
                                     <CardImgOverlay>
                                         <CardTitle className="text-white mt-0">Card title</CardTitle>
                                         <CardText className="text-light">This is a wider card with supporting text below as a
@@ -237,7 +237,7 @@ class UiCards extends Component {
                                 <Card>
                                     <Row className="no-gutters align-items-center">
                                         <Col md={4}>
-                                            <CardImg className="img-fluid" src={img2} alt="Skote" />
+                                            <CardImg className="img-fluid" src={img2} alt="Gazerr" />
                                         </Col>
                                         <Col md={8}>
                                             <CardBody>
@@ -260,7 +260,7 @@ class UiCards extends Component {
                                             </CardBody>
                                         </Col>
                                         <Col md={4}>
-                                            <CardImg className="img-fluid" src={img3} alt="Skote" />
+                                            <CardImg className="img-fluid" src={img3} alt="Gazerr" />
                                         </Col>
                                     </Row>
                                 </Card>
@@ -369,7 +369,7 @@ class UiCards extends Component {
                                 <h4 className="my-3">Decks</h4>
                                 <CardDeck>
                                     <Card>
-                                        <CardImg top className="img-fluid" src={img4} alt="Skote" />
+                                        <CardImg top className="img-fluid" src={img4} alt="Gazerr" />
                                         <CardBody>
                                             <CardTitle className="mt-0">Card title</CardTitle>
                                             <CardText>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
@@ -379,7 +379,7 @@ class UiCards extends Component {
                                         </CardBody>
                                     </Card>
                                     <Card>
-                                        <CardImg top className="img-fluid" src={img5} alt="Skote" />
+                                        <CardImg top className="img-fluid" src={img5} alt="Gazerr" />
                                         <CardBody>
                                             <CardTitle className="mt-0">Card title</CardTitle>
                                             <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
@@ -389,7 +389,7 @@ class UiCards extends Component {
                                         </CardBody>
                                     </Card>
                                     <Card>
-                                        <CardImg top className="img-fluid" src={img6} alt="Skote" />
+                                        <CardImg top className="img-fluid" src={img6} alt="Gazerr" />
                                         <CardBody>
                                             <CardTitle className="mt-0">Card title</CardTitle>
                                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
@@ -407,7 +407,7 @@ class UiCards extends Component {
                                 <h4 className="my-3">Cards Columns</h4>
                                 <CardColumns>
                                     <Card>
-                                        <CardImg top src={img3} alt="Skote" />
+                                        <CardImg top src={img3} alt="Gazerr" />
                                         <CardBody>
                                             <CardTitle>Card title that wraps to a new line</CardTitle>
                                             <CardText>This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
@@ -424,7 +424,7 @@ class UiCards extends Component {
                                         </CardBody>
                                     </Card>
                                     <Card>
-                                        <CardImg top src={img5} alt="Skote" />
+                                        <CardImg top src={img5} alt="Gazerr" />
                                         <CardBody>
                                             <CardTitle>Card title</CardTitle>
                                             <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
@@ -446,7 +446,7 @@ class UiCards extends Component {
                                         </CardBody>
                                     </Card>
                                     <Card>
-                                        <CardImg top src={img7} alt="Skote" />
+                                        <CardImg top src={img7} alt="Gazerr" />
                                     </Card>
                                     <Card className="p-3 text-right">
                                         <blockquote className="blockquote mb-0">

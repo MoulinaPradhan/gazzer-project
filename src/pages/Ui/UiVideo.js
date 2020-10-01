@@ -21,7 +21,7 @@ class UiVideo extends Component {
                 <div className="page-content">
                     <Container fluid={true}>
 
-                        <Breadcrumbs title="Video" breadcrumbItem="Video Details" />
+                        <Breadcrumbs title="Video" breadcrumbItem="Details" />
 
                         <Row>
                             <Col lg={12}>

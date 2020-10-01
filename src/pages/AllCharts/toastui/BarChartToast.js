@@ -47,7 +47,7 @@ legend: {
     }
 },
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class BarChartToast extends Component {
   constructor(props) {

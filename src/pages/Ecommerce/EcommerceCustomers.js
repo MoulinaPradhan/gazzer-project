@@ -31,7 +31,7 @@ class EcommerceCustomers extends Component {
                 <div className="page-content">
                     <Container fluid>
 
-                        <Breadcrumbs title="Meetings Group" breadcrumbItem="Meetings Group" />
+                        <Breadcrumbs title="Meetings" breadcrumbItem="Group" />
                         <Row>
                             <Col xs="12">
                                 <Card>

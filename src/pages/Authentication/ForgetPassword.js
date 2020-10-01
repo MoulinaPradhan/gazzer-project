@@ -14,7 +14,7 @@ import { userForgetPassword } from "../../store/actions";
 
 // import images
 import profile from "../../assets/images/profile-img.png";
-import logo from "../../assets/images/logo.svg";
+import logo from "../../assets/images/logo.png";
 
 class ForgetPasswordPage extends Component {
   constructor(props) {
@@ -46,7 +46,7 @@ class ForgetPasswordPage extends Component {
                       <Col className="col-7">
                         <div className="text-primary p-4">
                           <h5 className="text-primary">Welcome Back !</h5>
-                          <p>Sign in to continue to Skote.</p>
+                          <p>Sign in to continue to Gazerr.</p>
                         </div>
                       </Col>
                       <Col className="col-5 align-self-end">
@@ -116,7 +116,7 @@ class ForgetPasswordPage extends Component {
                       Login
                       </Link>{" "}
                   </p>
-                  <p>© {new Date().getFullYear()} Skote. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                  {/* <p>© {new Date().getFullYear()} Gazerr. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesbrand</p> */}
                 </div>
               </Col>
             </Row>

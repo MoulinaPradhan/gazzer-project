@@ -57,7 +57,7 @@ class EmailSideBar extends Component {
 
                     <div className="mt-2">
                         <Link to="#" className="media">
-                            <img className="d-flex mr-3 rounded-circle" src={avatar2} alt="skote" height="36" />
+                            <img className="d-flex mr-3 rounded-circle" src={avatar2} alt="Gazerr" height="36" />
                             <Media className="chat-user-box" body>
                                 <p className="user-title m-0">Scott Median</p>
                                 <p className="text-muted">Hello</p>
@@ -65,7 +65,7 @@ class EmailSideBar extends Component {
                         </Link>
 
                         <Link to="#" className="media">
-                            <img className="d-flex mr-3 rounded-circle" src={avatar3} alt="skote" height="36" />
+                            <img className="d-flex mr-3 rounded-circle" src={avatar3} alt="Gazerr" height="36" />
                             <Media className="chat-user-box" body>
                                 <p className="user-title m-0">Julian Rosa</p>
                                 <p className="text-muted">What about our next..</p>
@@ -73,7 +73,7 @@ class EmailSideBar extends Component {
                         </Link>
 
                         <Link to="#" className="media">
-                            <img className="d-flex mr-3 rounded-circle" src={avatar4} alt="skote" height="36" />
+                            <img className="d-flex mr-3 rounded-circle" src={avatar4} alt="Gazerr" height="36" />
                             <Media className="chat-user-box" body>
                                 <p className="user-title m-0">David Medina</p>
                                 <p className="text-muted">Yeah everything is fine</p>
@@ -81,7 +81,7 @@ class EmailSideBar extends Component {
                         </Link>
 
                         <Link to="#" className="media">
-                            <img className="d-flex mr-3 rounded-circle" src={avatar6} alt="skote" height="36" />
+                            <img className="d-flex mr-3 rounded-circle" src={avatar6} alt="Gazerr" height="36" />
                             <Media className="chat-user-box" body>
                                 <p className="user-title m-0">Jay Baker</p>
                                 <p className="text-muted">Wow that's great</p>

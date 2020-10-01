@@ -154,7 +154,7 @@ class Chat extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumb */}
-                        <Breadcrumbs title="Gazerr" breadcrumbItem="Chat" />
+                        <Breadcrumbs title="Chats" breadcrumbItem="Individual" />
 
                         {/* <Row>
                             <Col lg="12">
@@ -475,7 +475,7 @@ class Chat extends Component {
                         </Row> */}
 <Card>
                                     <CardBody>
-                                        <CardTitle className="mb-4">Chats Individual</CardTitle>
+                                        {/* <CardTitle className="mb-4">Chats Individual</CardTitle> */}
                                         <div className="table-responsive">
                                             <Table className="table table-nowrap table-hover mb-0">
                                                 <thead>

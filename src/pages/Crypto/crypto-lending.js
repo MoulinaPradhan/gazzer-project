@@ -36,7 +36,7 @@ class CryptoLending extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumb */}
-                        <Breadcrumbs title="Files" breadcrumbItem="Files Details" />
+                        <Breadcrumbs title="Files" breadcrumbItem="Details" />
         
                         <Row>
                             <Col xl="12">
@@ -315,23 +315,27 @@ class CryptoLending extends Component {
                                         <div label="Name">admin</div>
                                     </div>
                                     <div className="form-group">
-                                    <div name="username" style={{fontWeight:600}}>Date of Birth</div>
+                                    <div name="username" style={{fontWeight:600}}>Date</div>
                                         <div label="Name">DD/MM/YYYY</div>
                                          {/* <AvField name="username" label="Date of Birth" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
                                          <AvField name="idx"  value={this.state.idx}  type="hidden"  /> */}
                                     </div>
                                     <div className="form-group">
-                                    <div name="username" style={{fontWeight:600}}>Chat Groups</div>
-                                        <div label="Name">admin</div>
+                                    <div name="username" style={{fontWeight:600}}>File Type</div>
+                                        <div label="Name">PDF</div>
                                     </div>
-                                    <div className="form-group" style={{height:100}}>
+                                    <div className="form-group">
+                                    <div name="username" style={{fontWeight:600}}>File Size</div>
+                                        <div label="Name">100 KB</div>
+                                    </div>
+                                    {/* <div className="form-group" style={{height:100}}> */}
                                          {/* <AvField name="username" style={{height:100}} label="About Me" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
                                          <AvField name="idx"  value={this.state.idx}  type="hidden"  /> */}
-                                             <div name="username" style={{fontWeight:600}}>About Me</div>
-                                        <div label="Name">admin</div>
-                                    </div>
+                                             {/* <div name="username" style={{fontWeight:600}}>Description</div>
+                                        <div label="Name">admin</div> */}
+                                    {/* </div> */}
                                      <div className="mt-4">
-                                         <Button type="submit" color="danger">Back to Profile</Button>
+                                         <Button type="submit" color="danger">Back</Button>
                                     </div>
                                </AvForm>
                                     </CardBody> 

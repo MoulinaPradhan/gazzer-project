@@ -350,8 +350,8 @@ class Navbar extends Component {
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.authState })}>
                                                     <Link to="pages-login" className="dropdown-item">{this.props.t('Login')}</Link>
-                                                    <Link to="pages-register" className="dropdown-item">{this.props.t('Register')}</Link>
-                                                    <Link to="pages-forget-pwd" className="dropdown-item">{this.props.t('Forget Password')}</Link>
+                                                    {/* <Link to="pages-register" className="dropdown-item">{this.props.t('Register')}</Link>
+                                                    <Link to="pages-forget-pwd" className="dropdown-item">{this.props.t('Forget Password')}</Link> */}
                                                     <Link to="auth-lock-screen" className="dropdown-item">{this.props.t('Lock Screen')}</Link>
                                                 </div>
                                             </div>

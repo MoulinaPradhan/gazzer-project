@@ -90,7 +90,7 @@ class SidebarContent extends Component {
 
                     <li className="menu-title">{this.props.t('Apps')}</li>
 
-                    <li>
+                    {/* <li>
                         <Link to="/login" className=" waves-effect">
                             <i className="bx bx-calendar"></i>
                             <span>{this.props.t('Login')}</span>
@@ -101,15 +101,15 @@ class SidebarContent extends Component {
                             <i className="bx bx-file"></i>
                             <span>{this.props.t('Logout')}</span>
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to="/#" className="has-arrow waves-effect">
                             <i className="bx bx-store"></i>
                             <span>{this.props.t('Profiles')}</span>
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="/contacts-profile">{this.props.t('Summary')}</Link></li>
-                            <li><Link to="/profile">{this.props.t('Details')}</Link></li>
+                            <li><Link to="/profiles-summary">{this.props.t('Summary')}</Link></li>
+                            <li><Link to="/profile-details">{this.props.t('Details')}</Link></li>
                             {/* <li><Link to="ecommerce-orders">{this.props.t('Orders')}</Link></li> */}
                             {/* <li><Link to="ecommerce-customers">{this.props.t('Customers')}</Link></li>
                             <li><Link to="ecommerce-cart">{this.props.t('Cart')}</Link></li>
@@ -124,8 +124,8 @@ class SidebarContent extends Component {
                             <span>{this.props.t('Messages')}</span>
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="/tables-datatable">{this.props.t('Summary')}</Link></li>
-                            <li><Link to="/projects-create">{this.props.t('Details')}</Link></li>
+                            <li><Link to="/messages-summary">{this.props.t('Summary')}</Link></li>
+                            {/* <li><Link to="/messages-details">{this.props.t('Details')}</Link></li> */}
                             {/* <li><Link to="/contacts-profile">{this.props.t('Project Overview')}</Link></li> */}
                             {/* <li><Link to="projects-create">{this.props.t('Create New')}</Link></li>  */}
                         </ul>
@@ -133,19 +133,19 @@ class SidebarContent extends Component {
                         <Link to="chat" className="waves-effect has-arrow">
                             <i className="bx bx-chat"></i>
                             {/* <span className="badge badge-pill badge-success float-right">{this.props.t('New')}</span> */}
-                            <span>{this.props.t('Chat')}</span>
+                            <span>{this.props.t('Chats')}</span>
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="/projects-list">{this.props.t('Group')}</Link></li>
-                            <li><Link to="/Chat">{this.props.t('Individual')}</Link></li></ul>
+                            <li><Link to="/chat-group">{this.props.t('Group')}</Link></li>
+                            <li><Link to="/chat-individual">{this.props.t('Individual')}</Link></li></ul>
                     </li> <li>
                         <Link to="/#" className="has-arrow waves-effect">
                             <i className="bx bx-task"></i>
                             <span>{this.props.t('Meetings')}</span>
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="/ecommerce-customers">{this.props.t('Group')}</Link></li>
-                            <li><Link to="/tasks-create">{this.props.t('Individual')}</Link></li>
+                            <li><Link to="/meetings-group">{this.props.t('Group')}</Link></li>
+                            <li><Link to="/meetings-individual">{this.props.t('Individual')}</Link></li>
                             {/* <li><Link to="tasks-create">{this.props.t('Create Task')}</Link></li>  */}
                         </ul>
                     </li>
@@ -156,8 +156,8 @@ class SidebarContent extends Component {
                             <span>{this.props.t('Rooms')}</span>
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="/tasks-list">{this.props.t('Group')}</Link></li>
-                            <li><Link to="/tasks-kanban">{this.props.t('Individual ')}</Link></li>
+                            <li><Link to="/rooms-group">{this.props.t('Group')}</Link></li>
+                            <li><Link to="/rooms-individual">{this.props.t('Individual ')}</Link></li>
                             {/* <li><Link to="contacts-profile">{this.props.t('Profile')}</Link></li>  */}
                         </ul>
                     </li>
@@ -171,8 +171,8 @@ class SidebarContent extends Component {
                             <span>{this.props.t('Videos ')}</span>
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="/crypto-orders">{this.props.t('Summary')}</Link></li>
-                            <li><Link to="/ui-video">{this.props.t('Details')}</Link></li>
+                            <li><Link to="/videos-summary">{this.props.t('Summary')}</Link></li>
+                            {/* <li><Link to="/videos-details">{this.props.t('Details')}</Link></li> */}
                             {/* <li><Link to="crypto-buy-sell">{this.props.t('Buy/Sell')}</Link></li>
                             <li><Link to="crypto-exchange">{this.props.t('Exchange')}</Link></li>
                             <li><Link to="crypto-lending">{this.props.t('Lending')}</Link></li>
@@ -199,8 +199,8 @@ class SidebarContent extends Component {
                             <span>{this.props.t('Files')}</span>
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
-                            <li><Link to="/projects-grid">{this.props.t('Summary')}</Link></li>
-                            <li><Link to="/crypto-lending">{this.props.t('Details')}</Link></li>
+                            <li><Link to="/files-summary">{this.props.t('Summary')}</Link></li>
+                            <li><Link to="/files-details">{this.props.t('Details')}</Link></li>
                         </ul>
                     </li>
 

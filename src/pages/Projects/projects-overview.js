@@ -99,9 +99,9 @@ class ProjectsOverview extends Component {
                 },
             ],
             files: [
-                { name: "Skote Landing.Zip", size: "3.25 MB", link: "#" },
-                { name: "Skote Admin.Zip", size: "3.15 MB", link: "#" },
-                { name: "Skote Logo.Zip", size: "2.02 MB", link: "#" },
+                { name: "Gazerr Landing.Zip", size: "3.25 MB", link: "#" },
+                { name: "Gazerr Admin.Zip", size: "3.15 MB", link: "#" },
+                { name: "Gazerr Logo.Zip", size: "2.02 MB", link: "#" },
                 { name: "Veltrix admin.Zip", size: "2.25 MB", link: "#" },
             ]
         }
@@ -123,7 +123,7 @@ class ProjectsOverview extends Component {
                                             <img src={img1} alt="" className="avatar-sm mr-4" />
 
                                             <Media className="overflow-hidden" body>
-                                                <h5 className="text-truncate font-size-15">Skote Dashboard UI</h5>
+                                                <h5 className="text-truncate font-size-15">Gazerr Dashboard UI</h5>
                                                 <p className="text-muted">Separate existence is a myth. For science, music, sport, etc.</p>
                                             </Media>
                                         </Media>

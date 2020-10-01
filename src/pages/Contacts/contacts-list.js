@@ -16,14 +16,14 @@ class ContactsList extends Component {
     state = {
         users: [
             {
-                id: 1, img: "Null", name: "David McHenry", designation: "UI/UX Designer", email: "david@skote.com", projects: "125",
+                id: 1, img: "Null", name: "David McHenry", designation: "UI/UX Designer", email: "david@gazerr.com", projects: "125",
                 skills: [
                     { name: "Photoshop" },
                     { name: "illustrator" }
                 ]
             },
             {
-                id: 2, img: avatar2, name: "Frank Kirk", designation: "Frontend Developer", email: "frank@skote.com", projects: "132",
+                id: 2, img: avatar2, name: "Frank Kirk", designation: "Frontend Developer", email: "frank@gazerr.com", projects: "132",
                 skills: [
                     { name: "Html" },
                     { name: "Css" },
@@ -31,7 +31,7 @@ class ContactsList extends Component {
                 ]
             },
             {
-                id: 3, img: avatar3, name: "Rafael Morales", designation: "Backend Developer", email: "Rafael@skote.com", projects: "1112",
+                id: 3, img: avatar3, name: "Rafael Morales", designation: "Backend Developer", email: "Rafael@gazerr.com", projects: "1112",
                 skills: [
                     { name: "Php" },
                     { name: "Java" },
@@ -39,7 +39,7 @@ class ContactsList extends Component {
                 ]
             },
             {
-                id: 4, img: "Null", name: "Mark Ellison", designation: "Full Stack Developer", email: "mark@skote.com", projects: "121",
+                id: 4, img: "Null", name: "Mark Ellison", designation: "Full Stack Developer", email: "mark@gazerr.com", projects: "121",
                 skills: [
                     { name: "Ruby" },
                     { name: "Php" },
@@ -47,7 +47,7 @@ class ContactsList extends Component {
                 ]
             },
             {
-                id: 5, img: avatar4, name: "Minnie Walter", designation: "Frontend Developer", email: "minnie@skote.com", projects: "145",
+                id: 5, img: avatar4, name: "Minnie Walter", designation: "Frontend Developer", email: "minnie@gazerr.com", projects: "145",
                 skills: [
                     { name: "Html" },
                     { name: "Css" },
@@ -55,14 +55,14 @@ class ContactsList extends Component {
                 ]
             },
             {
-                id: 6, img: avatar5, name: "Shirley Smith", designation: "UI/UX Designer", email: "shirley@skote.com", projects: "136",
+                id: 6, img: avatar5, name: "Shirley Smith", designation: "UI/UX Designer", email: "shirley@gazerr.com", projects: "136",
                 skills: [
                     { name: "Photoshop" },
                     { name: "UI/UX Designer" }
                 ]
             },
             {
-                id: 7, img: "Null", name: "John Santiago", designation: "Full Stack Developer", email: "john@skote.com", projects: "125",
+                id: 7, img: "Null", name: "John Santiago", designation: "Full Stack Developer", email: "john@gazerr.com", projects: "125",
                 skills: [
                     { name: "Ruby" },
                     { name: "Php" },
@@ -70,7 +70,7 @@ class ContactsList extends Component {
                 ]
             },
             {
-                id: 8, img: avatar7, name: "Colin Melton", designation: "Backend Developer", email: "colin@skote.com", projects: "136",
+                id: 8, img: avatar7, name: "Colin Melton", designation: "Backend Developer", email: "colin@gazerr.com", projects: "136",
                 skills: [
                     { name: "Php" },
                     { name: "Java" },

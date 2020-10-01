@@ -60,7 +60,7 @@ class TasksCreate extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumbs */}
-                        <Breadcrumbs title="Meeting" breadcrumbItem="Meeting Summary" />
+                        <Breadcrumbs title="Meetings" breadcrumbItem="Summary" />
 
                         <Row>
                             <Col lg="12">

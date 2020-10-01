@@ -13,7 +13,7 @@ var theme = {
     }
   }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class HeatmapChartToast extends Component {
     constructor(props) {
@@ -41,7 +41,7 @@ class HeatmapChartToast extends Component {
                 width: this.props.chartWidth,
                 height: 450,
             },
-            theme: 'skoteTheme',
+            theme: 'GazerrTheme',
             yAxis: {
                 title: 'City'
             },

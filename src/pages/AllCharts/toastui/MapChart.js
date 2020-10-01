@@ -28,7 +28,7 @@ var theme = {
         borderColor: '#F4511E'
     }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class MapChartToast extends Component {
     constructor(props) {

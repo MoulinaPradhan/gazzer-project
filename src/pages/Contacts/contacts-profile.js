@@ -35,7 +35,7 @@ class ContactsProfile extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumbs */}
-                        {/* <Breadcrumbs title="Contacts" breadcrumbItem="Profile" /> */}
+                        <Breadcrumbs title="Profiles" breadcrumbItem="Summary" />
 
                         <Row>
                             <Col xl="4">
@@ -102,7 +102,7 @@ class ContactsProfile extends Component {
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">E-mail :</th>
-                                                        <td>cynthiaskote@gmail.com</td>
+                                                        <td>cynthiaGazerr@gmail.com</td>
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">Location :</th>

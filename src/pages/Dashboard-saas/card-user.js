@@ -35,7 +35,7 @@ class CardUser extends Component {
                                                     </div>
                                                     <Media className="align-self-center" body>
                                                         <div className="text-muted">
-                                                            <p className="mb-2">Welcome to skote dashboard</p>
+                                                            <p className="mb-2">Welcome to Gazerr dashboard</p>
                                                             <h5 className="mb-1">Henry wells</h5>
                                                             <p className="mb-0">UI / UX Designer</p>
                                                         </div>

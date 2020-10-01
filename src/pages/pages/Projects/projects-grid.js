@@ -53,7 +53,7 @@ class ProjectsGrid extends Component {
                     ]
                 },
                 {
-                    id: 5, img: img5, name: "Skote Dashboard UI", description: "Separate existence is a myth", status: "Completed", color: "primary", date: "13 Oct, 19", comments: 194,
+                    id: 5, img: img5, name: "Gazerr Dashboard UI", description: "Separate existence is a myth", status: "Completed", color: "primary", date: "13 Oct, 19", comments: 194,
                     child: [
                         { id: 1, img: avatar3, name: "Steven Jenkins" },
                         { id: 2, img: avatar2, name: "Ruby Clinton" },

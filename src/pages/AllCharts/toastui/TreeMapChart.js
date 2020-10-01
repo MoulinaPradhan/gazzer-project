@@ -36,7 +36,7 @@ var theme = {
         }
     }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class TreeMapChartToast extends Component {
     constructor(props) {

@@ -47,7 +47,7 @@ var theme = {
         ]
     }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class ScatterChartToast extends Component {
   constructor(props) {

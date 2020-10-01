@@ -151,24 +151,24 @@ const authProtectedRoutes = [
 	// { path : "/crypto-wallet", component : CryptoWallet },
 	{ path : "/crypto-buy-sell", component : CryptoBuySell },
 	{ path : "/crypto-exchange", component : CryptoExchange },
-	{ path : "/crypto-lending", component : CryptoLending },
-	{ path : "/crypto-orders", component : CryptoOrders },
+	{ path : "/files-details", component : CryptoLending },
+	{ path : "/videos-summary", component : CryptoOrders },
 	{ path : "/crypto-kyc-application", component : CryptoKYCApplication },
 	
 	//profile
-	{ path: "/profile", component: UserProfile },
+	{ path: "/profile-details", component: UserProfile },
 
 	//chat
-	{ path: "/chat", component: Chat },
+	{ path: "/chat-individual", component: Chat },
 
 	//calendar
 	{ path: "/calendar", component: Calendar },
 
 	//Ecommerce
-	{ path: "/ecommerce-products", component: EcommerceProducts },
+	{ path: "/ecommerce", component: EcommerceProducts },
 	{ path: "/ecommerce-product-detail", component: EcommerceProductDetail },
 	{ path: "/ecommerce-orders", component: EcommerceOrders },
-	{ path: "/ecommerce-customers", component: EcommerceCustomers },
+	{ path: "/meetings-group", component: EcommerceCustomers },
 	{ path: "/ecommerce-cart", component: EcommerceCart },
 	{ path: "/ecommerce-checkout", component: EcommerceCheckout },
 	{ path: "/ecommerce-shops", component: EcommerceShops },
@@ -183,20 +183,20 @@ const authProtectedRoutes = [
 	{ path: "/invoices-detail", component: InvoiceDetail },
 
 	// Tasks
-	{ path: "/tasks-list", component: TasksList },
-	{ path: "/tasks-kanban", component: TasksKanban },
-	{ path: "/tasks-create", component: TasksCreate },
+	{ path: "/rooms-group", component: TasksList },
+	{ path: "/rooms-individual", component: TasksKanban },
+	{ path: "/meetings-individual", component: TasksCreate },
 
 	//Projects
-	{ path: "/projects-grid", component: ProjectsGrid },
-	{ path: "/projects-list", component: ProjectsList },
+	{ path: "/files-summary", component: ProjectsGrid },
+	{ path: "/chat-group", component: ProjectsList },
 	{ path: "/projects-overview", component: ProjectsOverview },
-	{ path: "/projects-create", component: ProjectsCreate },
+	// { path: "/messages-details", component: ProjectsCreate },
 
 	// Contacts
 	{ path: "/contacts-grid", component: ContactsGrid },
 	{ path: "/contacts-list", component: ContactsList },
-	{ path: "/contacts-profile", component: ContactsProfile },
+	{ path: "/profiles-summary", component: ContactsProfile },
 
 	//Charts
 	{ path: "/apex-charts", component: ChartApex },
@@ -215,7 +215,7 @@ const authProtectedRoutes = [
 
 	// Tables
 	{ path: "/tables-basic", component: BasicTables },
-	{ path: "/tables-datatable", component: DatatableTables },
+	{ path: "/messages-summary", component: DatatableTables },
 	{ path: "/tables-responsive", component: ResponsiveTables },
 	{ path: "/tables-editable", component: EditableTables },
 
@@ -251,7 +251,7 @@ const authProtectedRoutes = [
 	{ path: "/ui-sweet-alert", component: UiSweetAlert },
 	{ path: "/ui-tabs-accordions", component: UiTabsAccordions },
 	{ path: "/ui-typography", component: UiTypography },
-	{ path: "/ui-video", component: UiVideo },
+	// { path: "/videos-details", component: UiVideo },
 	{ path: "/ui-session-timeout", component: UiSessionTimeout },
 	{ path: "/ui-rating", component: UiRating },
 	{ path: "/ui-rangeslider", component: UiRangeSlider },

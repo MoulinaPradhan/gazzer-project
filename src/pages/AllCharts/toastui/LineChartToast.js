@@ -47,7 +47,7 @@ series: {
     ]
 }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class LineChartToast extends Component {
   constructor(props) {

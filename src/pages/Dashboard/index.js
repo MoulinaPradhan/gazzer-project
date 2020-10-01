@@ -29,9 +29,9 @@ class Dashboard extends Component {
         super(props);
         this.state = {
             reports: [
-                { title: "Orders", iconClass: "bx-copy-alt", description: "1,235" },
-                { title: "Revenue", iconClass: "bx-archive-in", description: "$35, 723" },
-                { title: "Average Price", iconClass: "bx-purchase-tag-alt", description: "$16.2" }
+                { title: "Profiles", iconClass: "bx-copy-alt", description: "1,235" },
+                { title: "Rooms", iconClass: "bx-archive-in", description: "145" },
+                { title: "Videos", iconClass: "bx-purchase-tag-alt", description: "16" }
             ],
             email: [
                 { title: "Week", linkto: "#", isActive: false },
@@ -56,8 +56,8 @@ class Dashboard extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumb */}
-                        <Breadcrumbs title={this.props.t('Dashboard')} breadcrumbItem={this.props.t('Dashboard')} />
-
+                        {/* <Breadcrumbs title={this.props.t('Dasboard') breadcrumbItem={this.props.t('Dashboard')} }/> */}
+<CardTitle>Dashboard</CardTitle>
                         <Row>
                             <Col xl="4">
                                 {/* <WelcomeComp /> */}

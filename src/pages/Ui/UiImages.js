@@ -41,11 +41,11 @@ class UiImages extends Component {
                                         <CardSubtitle className="mb-3">Use classNamees <code>.rounded</code> and <code>.rounded-circle</code>.</CardSubtitle>
                                         <Row>
                                             <Col md={6}>
-                                                <img className="rounded mr-2" alt="Skote" width="200" src={img4} />
+                                                <img className="rounded mr-2" alt="Gazerr" width="200" src={img4} />
                                             </Col>
                                             <Col md={6}>
                                                 <div className="mt-4 mt-md-0">
-                                                    <img className="rounded-circle avatar-xl" alt="Skote" src={avatar4} />
+                                                    <img className="rounded-circle avatar-xl" alt="Gazerr" src={avatar4} />
                                                 </div>
                                             </Col>
                                         </Row>
@@ -57,11 +57,11 @@ class UiImages extends Component {
                                         <CardSubtitle className="mb-3">In addition to our border-radius utilities, you can use <code className="highlighter-rouge">.img-thumbnail</code> to give an image a rounded 1px border appearance.</CardSubtitle>
                                         <Row>
                                             <Col md={6}>
-                                                <img className="img-thumbnail" alt="Skote" width="200" src={img3} />
+                                                <img className="img-thumbnail" alt="Gazerr" width="200" src={img3} />
                                             </Col>
                                             <Col md={6}>
                                                 <div className="mt-4 mt-md-0">
-                                                    <img className="img-thumbnail rounded-circle avatar-xl" alt="Skote" src={avatar3} />
+                                                    <img className="img-thumbnail rounded-circle avatar-xl" alt="Gazerr" src={avatar3} />
                                                 </div>
                                             </Col>
                                         </Row>
@@ -72,9 +72,9 @@ class UiImages extends Component {
                             <Col lg={6}>
                                 <Card>
                                     <CardBody>
-                                        <CardTitle>Skotes</CardTitle>
+                                        <CardTitle>Gazerrs</CardTitle>
                                         <CardSubtitle className="mb-3">Images in Bootstrap are made responsive with <code className="highlighter-rouge">.img-fluid</code>. <code className="highlighter-rouge">max-width: 100%;</code> and <code className="highlighter-rouge">height: auto;</code> are applied to the image so that it scales with the parent element.</CardSubtitle>
-                                        <CardImg className="img-fluid" src={img2} alt="Skote" />
+                                        <CardImg className="img-fluid" src={img2} alt="Gazerr" />
                                     </CardBody>
                                 </Card>
                             </Col>
@@ -90,15 +90,15 @@ class UiImages extends Component {
                                             <Col md={6}>
                                                 <Row>
                                                     <Col lg={4}>
-                                                        <CardImg src={avatar3} alt="SkoteSkote" className="rounded avatar-sm" />
+                                                        <CardImg src={avatar3} alt="GazerrGazerr" className="rounded avatar-sm" />
                                                         <CardText className="mt-2 mb-lg-0"><code>.avatar-sm</code></CardText>
                                                     </Col>
                                                     <Col lg={4}>
-                                                        <CardImg src={avatar4} alt="Skote" className="rounded avatar-md" />
+                                                        <CardImg src={avatar4} alt="Gazerr" className="rounded avatar-md" />
                                                         <CardText className="mt-2  mb-lg-0"><code>.avatar-md</code></CardText>
                                                     </Col>
                                                     <Col lg={4}>
-                                                        <CardImg src={avatar5} alt="Skote" className="rounded avatar-lg" />
+                                                        <CardImg src={avatar5} alt="Gazerr" className="rounded avatar-lg" />
                                                         <CardText className="mt-2 mb-lg-0"><code>.avatar-lg</code></CardText>
                                                     </Col>
                                                 </Row>
@@ -106,7 +106,7 @@ class UiImages extends Component {
                                             <Col md={6}>
                                                 <Row>
                                                     <Col lg={4}>
-                                                        <CardImg src={avatar3} alt="Skote" className="rounded-circle avatar-sm" />
+                                                        <CardImg src={avatar3} alt="Gazerr" className="rounded-circle avatar-sm" />
                                                         <CardText className="mt-2 mb-lg-0"><code>.avatar-sm</code></CardText>
                                                     </Col>
                                                     <Col lg={4}>
@@ -114,7 +114,7 @@ class UiImages extends Component {
                                                         <CardText className="mt-2  mb-lg-0"><code>.avatar-md</code></CardText>
                                                     </Col>
                                                     <Col lg={4}>
-                                                        <CardImg src={avatar5} alt="Skote" className="rounded-circle avatar-lg" />
+                                                        <CardImg src={avatar5} alt="Gazerr" className="rounded-circle avatar-lg" />
                                                         <CardText className="mt-2 mb-lg-0"><code>.avatar-lg</code></CardText>
                                                     </Col>
                                                 </Row>
@@ -132,7 +132,7 @@ class UiImages extends Component {
                                         <CardTitle>Default media object</CardTitle>
                                         <CardSubtitle className="mb-3">The default media displays a media object (images, video, audio) to the left or right of a content block.</CardSubtitle>
                                         <div className="media mb-4">
-                                            <img className="d-flex mr-3 rounded-circle" src={avatar6} alt="Skote" height="64" />
+                                            <img className="d-flex mr-3 rounded-circle" src={avatar6} alt="Gazerr" height="64" />
                                             <div className="media-body">
                                                 <h5 className="mt-0 font-16">Media heading</h5>
                                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
@@ -140,14 +140,14 @@ class UiImages extends Component {
                                         </div>
 
                                         <div className="media mb-4">
-                                            <img className="d-flex mr-3 rounded-circle" src={avatar2} alt="Skote" height="64" />
+                                            <img className="d-flex mr-3 rounded-circle" src={avatar2} alt="Gazerr" height="64" />
                                             <div className="media-body">
                                                 <h5 className="mt-0 font-16">Media heading</h5>
                                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
 
                                                 <div className="media mt-3">
                                                     <Link className="d-flex pr-3" to="#">
-                                                        <img src={avatar3} alt="Skote" height="64" className="rounded-circle" />
+                                                        <img src={avatar3} alt="Gazerr" height="64" className="rounded-circle" />
                                                     </Link>
                                                     <div className="media-body">
                                                         <h5 className="mt-0 font-16">Media heading</h5>
@@ -162,7 +162,7 @@ class UiImages extends Component {
                                                 <h5 className="mt-0 mb-1 font-16">Media object</h5>
                                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                             </div>
-                                            <img className="d-flex ml-3 rounded-circle" src={avatar4} alt="Skote" height="64" />
+                                            <img className="d-flex ml-3 rounded-circle" src={avatar4} alt="Gazerr" height="64" />
                                         </div>
 
                                     </CardBody>
@@ -180,7 +180,7 @@ class UiImages extends Component {
                                         <CardSubtitle className="mb-3">The images or other media can be aligned top, middle, or bottom. The default is top aligned.</CardSubtitle>
 
                                         <div className="media mb-4">
-                                            <img className="d-flex align-self-start rounded mr-3" src={avatar3} alt="Skote" height="64" />
+                                            <img className="d-flex align-self-start rounded mr-3" src={avatar3} alt="Gazerr" height="64" />
                                             <div className="media-body">
                                                 <h5 className="mt-0 font-16">Top-aligned media</h5>
                                                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
@@ -189,7 +189,7 @@ class UiImages extends Component {
                                         </div>
 
                                         <div className="media mb-4">
-                                            <img className="d-flex align-self-center rounded mr-3" src={avatar5} alt="Skote" height="64" />
+                                            <img className="d-flex align-self-center rounded mr-3" src={avatar5} alt="Gazerr" height="64" />
                                             <div className="media-body">
                                                 <h5 className="mt-0 font-16">Center-aligned media</h5>
                                                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
@@ -198,7 +198,7 @@ class UiImages extends Component {
                                         </div>
 
                                         <div className="media">
-                                            <img className="d-flex align-self-end rounded mr-3" src={avatar1} alt="Skote" height="64" />
+                                            <img className="d-flex align-self-end rounded mr-3" src={avatar1} alt="Gazerr" height="64" />
                                             <div className="media-body">
                                                 <h5 className="mt-0 font-16">Bottom-aligned media</h5>
                                                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>

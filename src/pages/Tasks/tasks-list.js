@@ -36,7 +36,7 @@ class TasksList extends Component {
             <React.Fragment>
                 <div className="page-content">
                     <Container fluid>
-                        <Breadcrumbs title="Rooms Group" breadcrumbItem="Rooms Group" />
+                        <Breadcrumbs title="Rooms" breadcrumbItem="Group" />
                         {/* Render Breadcrumbs */}
                         <Row>
                             <Col lg={12}>
@@ -54,7 +54,7 @@ class TasksList extends Component {
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            <h5 className="text-truncate font-size-14 m-0"><Link to="#" className="text-dark">Create a Skote Dashboard UI</Link></h5>
+                                                            <h5 className="text-truncate font-size-14 m-0"><Link to="#" className="text-dark">Create a Gazerr Dashboard UI</Link></h5>
                                                         </td>
                                                         <td>
                                                             <div className="team">
@@ -117,7 +117,7 @@ class TasksList extends Component {
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            <h5 className="text-truncate font-size-14 m-0"><Link to="#" className="text-dark">Create a Skote Logo</Link></h5>
+                                                            <h5 className="text-truncate font-size-14 m-0"><Link to="#" className="text-dark">Create a Gazerr Logo</Link></h5>
                                                         </td>
                                                         <td>
                                                             <div className="team">
@@ -526,7 +526,7 @@ class TasksList extends Component {
                                                 <tr>
                                                     <td><img src={img5} alt="" className="avatar-sm" /></td>
                                                     <td>
-                                                        <h5 className="text-truncate font-size-14"><Link to="#" className="text-dark">Skote Dashboard UI</Link></h5>
+                                                        <h5 className="text-truncate font-size-14"><Link to="#" className="text-dark">Gazerr Dashboard UI</Link></h5>
                                                         <p className="text-muted mb-0">Separate existence is a myth</p>
                                                     </td>
                                                     <td>22 Oct, 19</td>

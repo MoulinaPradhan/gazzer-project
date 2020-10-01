@@ -15,7 +15,7 @@ import { loginUser,apiError } from '../../store/actions';
 // import images
 import profile from "../../assets/images/profile-img.png";
 // import logo from "../../assets/images/logo.svg";
-import grazzer from "../../assets/images/grazzer-logo.png";
+import grazzer from "../../assets/images/logo.png";
 
 class Login extends Component {
 

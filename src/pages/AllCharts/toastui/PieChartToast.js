@@ -30,7 +30,7 @@ series: {
     ]
 }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class PieChartToast extends Component {
   constructor(props) {

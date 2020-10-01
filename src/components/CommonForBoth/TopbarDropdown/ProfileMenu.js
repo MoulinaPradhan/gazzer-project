@@ -59,7 +59,8 @@ class ProfileMenu extends Component {
                             <i className="bx bx-user font-size-16 align-middle mr-1"></i>
                             {this.props.t('Profile')}
                         </DropdownItem>
-                        <DropdownItem tag="a" href="/crypto-wallet">
+                       
+                        {/* <DropdownItem tag="a" href="/crypto-wallet">
                             <i className="bx bx-wallet font-size-16 align-middle mr-1"></i>
                             {this.props.t('My Wallet')}
                         </DropdownItem>
@@ -69,7 +70,7 @@ class ProfileMenu extends Component {
                         </DropdownItem>
                         <DropdownItem tag="a" href="auth-lock-screen">
                             <i className="bx bx-lock-open font-size-16 align-middle mr-1"></i>{this.props.t('Lock screen')}
-                        </DropdownItem>
+                        </DropdownItem> */}
                         <div className="dropdown-divider"></div>
                         <Link to="/logout" className="dropdown-item">
                             <i className="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i>

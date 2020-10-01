@@ -40,7 +40,7 @@ class EmailRead extends Component {
 
                                         <CardBody>
                                             <Media className="mb-4">
-                                                <img className="d-flex mr-3 rounded-circle avatar-sm" src={avatar2} alt="skote" />
+                                                <img className="d-flex mr-3 rounded-circle avatar-sm" src={avatar2} alt="Gazerr" />
                                                 <Media body>
                                                     <h5 className="font-size-14 mt-1">Humberto D. Champion</h5>
                                                     <small className="text-muted">support@domain.com</small>
@@ -59,7 +59,7 @@ class EmailRead extends Component {
                                             <Row>
                                                 <Col xl="2" xs="6">
                                                     <Card>
-                                                        <img className="card-img-top img-fluid" src={img3} alt="skote" />
+                                                        <img className="card-img-top img-fluid" src={img3} alt="Gazerr" />
                                                         <div className="py-2 text-center">
                                                             <Link to="" className="font-weight-medium">Download</Link>
                                                         </div>
@@ -67,7 +67,7 @@ class EmailRead extends Component {
                                                 </Col>
                                                 <Col xl="2" xs="6">
                                                     <Card>
-                                                        <img className="card-img-top img-fluid" src={img4} alt="skote" />
+                                                        <img className="card-img-top img-fluid" src={img4} alt="Gazerr" />
                                                         <div className="py-2 text-center">
                                                             <Link to="" className="font-weight-medium">Download</Link>
                                                         </div>

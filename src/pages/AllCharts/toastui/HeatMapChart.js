@@ -48,7 +48,7 @@ var theme = {
         borderColor: '#F4511E'
     }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class HeatMapChart extends Component {
     constructor(props) {

@@ -29,7 +29,7 @@ class UserProfile extends Component {
     handleValidSubmit(event, values) {
         this.props.editProfile(values);
     }
-
+  
     componentDidMount()
     {
         if(localStorage.getItem("authUser"))
@@ -69,7 +69,7 @@ class UserProfile extends Component {
                     <Container fluid>
 
                         {/* Render Breadcrumb */}
-                        <Breadcrumb title="Skote" breadcrumbItem="Details" />
+                        <Breadcrumb title="Profiles" breadcrumbItem="Details" />
 
                          <Row>
                             <Col lg="12">
@@ -124,11 +124,11 @@ class UserProfile extends Component {
                                     <div className="form-group" style={{height:100}}>
                                          {/* <AvField name="username" style={{height:100}} label="About Me" value={this.state.name} className="form-control" placeholder="Enter UserName" type="text" required />
                                          <AvField name="idx"  value={this.state.idx}  type="hidden"  /> */}
-                                             <div name="username" style={{fontWeight:600}}>About Me</div>
+                                             <div name="username" style={{fontWeight:600}}>About</div>
                                         <div label="Name">admin</div>
                                     </div>
                                      <div className="mt-4">
-                                         <Button type="submit" color="danger">Back to Profile</Button>
+                                         <Button type="submit" color="danger">Back</Button>
                                     </div>
                                </AvForm>
                             

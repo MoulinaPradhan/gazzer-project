@@ -37,7 +37,7 @@ class TasksKanban extends Component {
             {
               id: 3,
               content: {
-                title: "Create a Skote Logo", date: "16 Oct, 2019", img: avatar4, text: "F", budget: 86, status: "Waiting", class: "secondary"
+                title: "Create a Gazerr Logo", date: "16 Oct, 2019", img: avatar4, text: "F", budget: 86, status: "Waiting", class: "secondary"
               }
             },
           ]
@@ -61,7 +61,7 @@ class TasksKanban extends Component {
             {
               id: 3,
               content: {
-                title: "Skote Dashboard UI", date: "14 Oct, 2019", img: avatar4, text: "F", budget: 94, status: "Complete", class: "success"
+                title: "Gazerr Dashboard UI", date: "14 Oct, 2019", img: avatar4, text: "F", budget: 94, status: "Complete", class: "success"
               }
             },
 
@@ -86,7 +86,7 @@ class TasksKanban extends Component {
             {
               id: 3,
               content: {
-                title: "Skote landing Psd", date: "15 Oct, 2019", img: avatar4, text: "F", budget: 86, status: "Waiting", class: "secondary"
+                title: "Gazerr landing Psd", date: "15 Oct, 2019", img: avatar4, text: "F", budget: 86, status: "Waiting", class: "secondary"
               }
             },
 

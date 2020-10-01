@@ -14,7 +14,7 @@ class CardWelcome extends Component {
                         <Col lg="9" sm="8">
                             <div  className="p-4">
                                 <h5 className="text-primary">Welcome Back !</h5>
-                                <p>Skote Crypto Dashboard</p>
+                                <p>Gazerr Crypto Dashboard</p>
 
                                 <div className="text-muted">
                                     <p className="mb-1"><i className="mdi mdi-circle-medium align-middle text-primary mr-1"></i> If several languages coalesce</p>

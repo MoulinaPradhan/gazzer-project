@@ -67,7 +67,7 @@ class LanguageDropdown extends Component {
           >
             <img
               src={this.state.flag}
-              alt="Skote"
+              alt="Gazerr"
               height="16"
               className="mr-1"
             />
@@ -75,23 +75,23 @@ class LanguageDropdown extends Component {
           </DropdownToggle>
           <DropdownMenu className="language-switch" right>
             <DropdownItem tag="a" href="#" onClick={() => this.changeLanguageAction('eng')} className={`notify-item ${this.state.lng === 'English' ? 'active' : 'none'}`}>
-              <img src={usFlag} alt="Skote" className="mr-1" height="12" />
+              <img src={usFlag} alt="Gazerr" className="mr-1" height="12" />
               <span className="align-middle">English</span>
             </DropdownItem>
             <DropdownItem tag="a" href="#" onClick={() => this.changeLanguageAction('sp')} className={`notify-item ${this.state.lng === 'Spanish' ? 'active' : 'none'}`}>
-              <img src={spain} alt="Skote" className="mr-1" height="12" />
+              <img src={spain} alt="Gazerr" className="mr-1" height="12" />
               <span className="align-middle">Spanish</span>
             </DropdownItem>
             <DropdownItem tag="a" href="#" onClick={() => this.changeLanguageAction('gr')} className={`notify-item ${this.state.lng === 'German' ? 'active' : 'none'}`}>
-              <img src={germany} alt="Skote" className="mr-1" height="12" />
+              <img src={germany} alt="Gazerr" className="mr-1" height="12" />
               <span className="align-middle">German</span>
             </DropdownItem>
             <DropdownItem tag="a" href="#" onClick={() => this.changeLanguageAction('it')} className={`notify-item ${this.state.lng === 'Italian' ? 'active' : 'none'}`}>
-              <img src={italy} alt="Skote" className="mr-1" height="12" />
+              <img src={italy} alt="Gazerr" className="mr-1" height="12" />
               <span className="align-middle">Italian</span>
             </DropdownItem>
             <DropdownItem tag="a" href="#" onClick={() => this.changeLanguageAction('rs')} className={`notify-item ${this.state.lng === 'Russian' ? 'active' : 'none'}`}>
-              <img src={russia} alt="Skote" className="mr-1" height="12" />
+              <img src={russia} alt="Gazerr" className="mr-1" height="12" />
               <span className="align-middle">Russian</span>
             </DropdownItem>
           </DropdownMenu>

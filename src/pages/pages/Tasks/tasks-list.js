@@ -19,7 +19,7 @@ class TasksList extends Component {
     state = {
         tasksUpcoming: [
             {
-                id: 1, title: "Create a Skote Dashboard UI", tastStatus: "Waiting", color: "secondary",
+                id: 1, title: "Create a Gazerr Dashboard UI", tastStatus: "Waiting", color: "secondary",
                 teamMembers: [
                     { id: 1, image: avatar2 },
                     { id: 2, image: avatar1 },
@@ -34,7 +34,7 @@ class TasksList extends Component {
                 ]
             },
             {
-                id: 3, title: "Create a Skote Logo", tastStatus: "Waiting", color: "secondary",
+                id: 3, title: "Create a Gazerr Logo", tastStatus: "Waiting", color: "secondary",
                 teamMembers: [
                     { id: 1, image: "Null", imgText: "F", },
                 ]

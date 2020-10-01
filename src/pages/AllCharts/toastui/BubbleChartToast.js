@@ -47,7 +47,7 @@ var theme = {
         ]
     }
 };
-TuiChart.registerTheme('skoteTheme', theme);
+TuiChart.registerTheme('GazerrTheme', theme);
 
 class BubbleChartToast extends Component {
   constructor(props) {

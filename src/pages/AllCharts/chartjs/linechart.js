@@ -12,7 +12,7 @@ class LineChart extends Component {
             labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September","October"],
             datasets: [
                 {
-                    label: "Sales Analytics",
+                    label: "New members",
                     fill: true,
                     lineTension: 0.5,
                     backgroundColor: "rgba(85, 110, 230, 0.2)",
@@ -33,7 +33,7 @@ class LineChart extends Component {
                     data: [65, 59, 80, 81, 56, 55, 40, 55, 30, 80]
                 },
                 {
-                    label: "Monthly Earnings",
+                    label: "Existing members",
                     fill: true,
                     lineTension: 0.5,
                     backgroundColor: "rgba(235, 239, 242, 0.2)",

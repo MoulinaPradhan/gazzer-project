@@ -16,7 +16,7 @@ class MonthlyEarning extends Component {
             <React.Fragment> <Card>
                 <CardBody>
                     <CardTitle className="mb-4">
-                        Monthly Earning
+                        Existing members
                     </CardTitle>
                     <Row>
                         <Col sm="6">

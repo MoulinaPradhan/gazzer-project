@@ -35,7 +35,7 @@ class Section extends Component {
                         <Row className="align-items-center">
                             <Col lg="5">
                                 <div className="text-white-50">
-                                    <h1 className="text-white font-weight-semibold mb-3 hero-title">Skote - Ico Landing for a cryptocurrency business</h1>
+                                    <h1 className="text-white font-weight-semibold mb-3 hero-title">Gazerr - Ico Landing for a cryptocurrency business</h1>
                                     <p className="font-size-14">It will be as simple as occidental in fact to an English person, it will seem like simplified as a skeptical Cambridge</p>
                                     
                                     <div className="button-items mt-4">
