@@ -156,7 +156,7 @@ const authProtectedRoutes = [
 	{ path : "/crypto-kyc-application", component : CryptoKYCApplication },
 	
 	//profile
-	{ path: "/profile-details", component: UserProfile },
+	{ path: "/profiles-detail", component: UserProfile },
 
 	//chat
 	{ path: "/chat-individual", component: Chat },

@@ -109,7 +109,7 @@ class SidebarContent extends Component {
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
                             <li><Link to="/profiles-summary">{this.props.t('Summary')}</Link></li>
-                            <li><Link to="/profile-details">{this.props.t('Details')}</Link></li>
+                            <li><Link to="/profiles-detail">{this.props.t('Details')}</Link></li>
                             {/* <li><Link to="ecommerce-orders">{this.props.t('Orders')}</Link></li> */}
                             {/* <li><Link to="ecommerce-customers">{this.props.t('Customers')}</Link></li>
                             <li><Link to="ecommerce-cart">{this.props.t('Cart')}</Link></li>

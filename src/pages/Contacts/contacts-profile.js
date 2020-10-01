@@ -168,7 +168,7 @@ class ContactsProfile extends Component {
 
 <Card>
                                     <CardBody>
-                                        <CardTitle className="mb-4">Profiles</CardTitle>
+                                    
                                         <div className="table-responsive">
                                             <Table className="table table-nowrap table-hover mb-0">
                                                 <thead>
