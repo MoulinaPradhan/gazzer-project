@@ -4,6 +4,8 @@ import React, { Component } from "react";
 import MetisMenu from "metismenujs";
 import { withRouter } from "react-router-dom";
 import { Link } from "react-router-dom";
+// availity-reactstrap-validation
+import { AvForm, AvField } from 'availity-reactstrap-validation';
 
 //i18n
 import { withNamespaces } from 'react-i18next';
@@ -109,7 +111,8 @@ class SidebarContent extends Component {
                         </Link>
                         <ul className="sub-menu" aria-expanded="false">
                             <li><Link to="/profiles-summary">{this.props.t('Summary')}</Link></li>
-                            <li><Link to="/profiles-detail">{this.props.t('Details')}</Link></li>
+                            <li><Link to="/profiles-details">{this.props.t('Details')}</Link></li>
+                            
                             {/* <li><Link to="ecommerce-orders">{this.props.t('Orders')}</Link></li> */}
                             {/* <li><Link to="ecommerce-customers">{this.props.t('Customers')}</Link></li>
                             <li><Link to="ecommerce-cart">{this.props.t('Cart')}</Link></li>

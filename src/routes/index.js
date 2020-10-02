@@ -156,7 +156,7 @@ const authProtectedRoutes = [
 	{ path : "/crypto-kyc-application", component : CryptoKYCApplication },
 	
 	//profile
-	{ path: "/profiles-detail", component: UserProfile },
+	// { path: "/profiles-detail", component: UserProfile },
 
 	//chat
 	{ path: "/chat-individual", component: Chat },
@@ -166,11 +166,11 @@ const authProtectedRoutes = [
 
 	//Ecommerce
 	{ path: "/ecommerce", component: EcommerceProducts },
-	{ path: "/ecommerce-product-detail", component: EcommerceProductDetail },
-	{ path: "/ecommerce-orders", component: EcommerceOrders },
+	{ path: "/profiles-details", component: EcommerceProductDetail },
+	{ path: "/profile", component: EcommerceOrders },
 	{ path: "/meetings-group", component: EcommerceCustomers },
 	{ path: "/ecommerce-cart", component: EcommerceCart },
-	{ path: "/ecommerce-checkout", component: EcommerceCheckout },
+	// { path: "/profile", component: EcommerceCheckout },
 	{ path: "/ecommerce-shops", component: EcommerceShops },
 	{ path: "/ecommerce-add-product", component: EcommerceAddProduct },
 
